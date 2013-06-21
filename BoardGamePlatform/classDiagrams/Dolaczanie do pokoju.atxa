@@ -1,0 +1,159 @@
+<,d00d171@gmail.com,d00d171@gmail.com,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> a atxa-core:chronoFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17svpodefx1 .
+
+_:node17svpodefx1 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Client> ;
+	atxa-jdt:index "0" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17svpodefx2 .
+
+_:node17svpodefx2 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Client.joinFirstAvailableRoom()> ;
+	atxa-jdt:index "0" ;
+	atxa-core:contains _:node17svpodefx3 .
+
+_:node17svpodefx3 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.rmi$Naming.lookup(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.rmi$Naming.lookup(String,)> atxa-core:link _:node17svpodefx4 .
+
+_:node17sv357rex4975 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17svpodefx3 ;
+	rdf:object _:node17svpodefx4 ;
+	atxa-core:name "lookup(\"rmi://\" + ip + \":\"+ String.valueOf(port)+ \"/rooms\")" .
+
+_:node17svpodefx2 atxa-core:contains _:node17svpodefx6 .
+
+_:node17svpodefx6 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> atxa-core:link _:node17svpodefx7 .
+
+_:node17sv357rex4976 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17svpodefx6 ;
+	rdf:object _:node17svpodefx7 ;
+	atxa-core:name "RemoteTurnHandler(createCurrentTurnHandler())" .
+
+_:node17svpodefx2 atxa-core:contains _:node17svpodefx9 .
+
+_:node17svpodefx9 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> atxa-core:link _:node17svpodefx10 .
+
+_:node17sv357rex4977 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17svpodefx9 ;
+	rdf:object _:node17svpodefx10 ;
+	atxa-core:name "RemoteTurnHandler(createCurrentTurnHandler())" .
+
+_:node17svpodefx2 atxa-core:contains _:node17svpodefx15 .
+
+_:node17svpodefx15 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.joinFirstAvailableRoom(String,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,)> ;
+	atxa-jdt:index "3" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.joinFirstAvailableRoom(String,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,)> atxa-core:link _:node17svpodefx16 .
+
+_:node17sv357rex4978 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17svpodefx15 ;
+	rdf:object _:node17svpodefx16 ;
+	atxa-core:name "joinFirstAvailableRoom(nick, remoteCurrentTurnHandlable, remoteOtherTurnHandlable, gameHasEndedCallback)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17svpodefx18 .
+
+_:node17svpodefx18 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.rmi$Naming> ;
+	atxa-jdt:index "1" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17svpodefx4 .
+
+_:node17svpodefx4 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.rmi$Naming.lookup(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4979 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17svpodefx4 ;
+	rdf:object _:node17svpodefx3 ;
+	atxa-core:name "java/rmi/Remote" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17svpodefx20 .
+
+_:node17svpodefx20 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler> ;
+	atxa-jdt:index "2" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17svpodefx7 .
+
+_:node17svpodefx7 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4980 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17svpodefx7 ;
+	rdf:object _:node17svpodefx6 ;
+	atxa-core:name "RemoteTurnHandler" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17svpodefx22 .
+
+_:node17svpodefx22 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler> ;
+	atxa-jdt:index "3" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17svpodefx10 .
+
+_:node17svpodefx10 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4981 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17svpodefx10 ;
+	rdf:object _:node17svpodefx9 ;
+	atxa-core:name "RemoteTurnHandler" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17svpodefx26 .
+
+_:node17svpodefx26 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager> ;
+	atxa-jdt:index "4" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17svpodefx16 .
+
+_:node17svpodefx16 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.joinFirstAvailableRoom(String,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4982 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17svpodefx16 ;
+	rdf:object _:node17svpodefx15 ;
+	atxa-core:name "Accessible" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slDolaczanie do pokoju.atxa> atxa-core:contains _:node17sv357rex4974 .
+
+_:node17sv357rex4974 a atxa-core:controlflow ;
+	atxa-core:model _:node17sv357rex4974 ;
+	atxa-core:controlflowname atxa-core:ifBlock ;
+	atxa-core:name "room == null" .
+

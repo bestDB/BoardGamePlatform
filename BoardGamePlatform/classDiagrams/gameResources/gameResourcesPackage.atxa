@@ -1,0 +1,57 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#gameResourcesPackage.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sa8fv6ux1925 .
+
+_:node17sa8fv6ux1925 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> ;
+	atxa-core:posX "20" ;
+	atxa-core:posY "13" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Pawn> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Item> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field> .
+
+_:node17sa8fv6ux1925 atxa-core:contains _:node17sa8fv6ux1926 .
+
+_:node17sa8fv6ux1926 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Pawn> ;
+	atxa-core:posX "26" ;
+	atxa-core:posY "38" .
+
+_:node17sa8fv6ux1925 atxa-core:contains _:node17sa8fv6ux1927 .
+
+_:node17sa8fv6ux1927 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Item> ;
+	atxa-core:posX "28" ;
+	atxa-core:posY "82" .
+
+_:node17sa8fv6ux1925 atxa-core:contains _:node17sa8fv6ux1928 .
+
+_:node17sa8fv6ux1928 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board> ;
+	atxa-core:posX "94" ;
+	atxa-core:posY "40" .
+
+_:node17sa8fv6ux1925 atxa-core:contains _:node17sa8fv6ux1929 .
+
+_:node17sa8fv6ux1929 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field> ;
+	atxa-core:posX "102" ;
+	atxa-core:posY "82" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#gameResourcesPackage.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sa8fv6ux1926 , _:node17sa8fv6ux1927 , _:node17sa8fv6ux1928 , _:node17sa8fv6ux1929 , _:node17sa8fv6ux1925 , atxa-core:docRoot , _:node17sa8fv6ux1926 , _:node17sa8fv6ux1927 , _:node17sa8fv6ux1928 , _:node17sa8fv6ux1929 , _:node17sa8fv6ux1925 , atxa-core:docRoot .
+

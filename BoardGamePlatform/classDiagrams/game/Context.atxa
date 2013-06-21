@@ -1,0 +1,138 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slContext.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17svfcsprx1 .
+
+_:node17svfcsprx1 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "15" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context> .
+
+_:node17svfcsprx1 atxa-core:contains _:node17svfcsprx2 .
+
+_:node17svfcsprx2 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context> ;
+	atxa-core:posX "40" ;
+	atxa-core:posY "40" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.addAttribute(String,String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.allPlayers> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.attributes> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.board> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.Context(String,Board,Player,List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.currPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getAttribute(String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getName()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.name> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.setAttributes(Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.Context(String,Board,Player,List,Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getAllPlayers()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getBoard()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getCurrPlayer()> .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx3 .
+
+_:node17svfcsprx3 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.addAttribute(String,String,)> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "138" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx4 .
+
+_:node17svfcsprx4 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.allPlayers> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "58" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx5 .
+
+_:node17svfcsprx5 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.attributes> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "74" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx6 .
+
+_:node17svfcsprx6 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.board> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "90" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx7 .
+
+_:node17svfcsprx7 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.Context(String,Board,Player,List,)> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "154" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx8 .
+
+_:node17svfcsprx8 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.currPlayer> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "106" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx9 .
+
+_:node17svfcsprx9 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getAttribute(String,)> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "170" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx10 .
+
+_:node17svfcsprx10 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getName()> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "186" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx11 .
+
+_:node17svfcsprx11 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.name> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "122" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17svfcsprx12 .
+
+_:node17svfcsprx12 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.setAttributes(Map,)> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "202" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17sv357rex2721 .
+
+_:node17sv357rex2721 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.Context(String,Board,Player,List,Map,)> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "218" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17sv357rex2722 .
+
+_:node17sv357rex2722 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getAllPlayers()> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "234" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17sv357rex2723 .
+
+_:node17sv357rex2723 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getBoard()> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "250" .
+
+_:node17svfcsprx2 atxa-core:contains _:node17sv357rex2724 .
+
+_:node17sv357rex2724 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Context.getCurrPlayer()> ;
+	atxa-core:posX "41" ;
+	atxa-core:posY "266" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slContext.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17svfcsprx3 , _:node17svfcsprx4 , _:node17svfcsprx5 , _:node17svfcsprx6 , _:node17svfcsprx7 , _:node17svfcsprx8 , _:node17svfcsprx9 , _:node17svfcsprx10 , _:node17svfcsprx11 , _:node17svfcsprx12 , _:node17sv357rex2721 , _:node17sv357rex2722 , _:node17sv357rex2723 , _:node17sv357rex2724 , _:node17svfcsprx2 , _:node17svfcsprx1 , atxa-core:docRoot , _:node17svfcsprx3 , _:node17svfcsprx4 , _:node17svfcsprx5 , _:node17svfcsprx6 , _:node17svfcsprx7 , _:node17svfcsprx8 , _:node17svfcsprx9 , _:node17svfcsprx10 , _:node17svfcsprx11 , _:node17svfcsprx12 , _:node17sv357rex2721 , _:node17sv357rex2722 , _:node17sv357rex2723 , _:node17sv357rex2724 , _:node17svfcsprx2 , _:node17svfcsprx1 , atxa-core:docRoot .
+

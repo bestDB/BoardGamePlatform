@@ -1,0 +1,89 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slTurnResult.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2853 .
+
+_:node17sv357rex2853 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> ;
+	atxa-core:posX "30" ;
+	atxa-core:posY "27" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult> .
+
+_:node17sv357rex2853 atxa-core:contains _:node17sv357rex2854 .
+
+_:node17sv357rex2854 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult> ;
+	atxa-core:posX "36" ;
+	atxa-core:posY "52" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.action> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.getProperty(String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.setProperties(Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.setProperty(String,String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult(Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult(String,String,)> .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2855 .
+
+_:node17sv357rex2855 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.action> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "70" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2856 .
+
+_:node17sv357rex2856 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.getProperty(String,)> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "86" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2857 .
+
+_:node17sv357rex2857 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.setProperties(Map,)> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "102" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2858 .
+
+_:node17sv357rex2858 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.setProperty(String,String,)> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "118" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2859 .
+
+_:node17sv357rex2859 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult()> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "134" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2860 .
+
+_:node17sv357rex2860 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult(Map,)> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "150" .
+
+_:node17sv357rex2854 atxa-core:contains _:node17sv357rex2861 .
+
+_:node17sv357rex2861 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnResult.TurnResult(String,String,)> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "166" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slTurnResult.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2855 , _:node17sv357rex2856 , _:node17sv357rex2857 , _:node17sv357rex2858 , _:node17sv357rex2859 , _:node17sv357rex2860 , _:node17sv357rex2861 , _:node17sv357rex2854 , _:node17sv357rex2853 , atxa-core:docRoot , _:node17sv357rex2855 , _:node17sv357rex2856 , _:node17sv357rex2857 , _:node17sv357rex2858 , _:node17sv357rex2859 , _:node17sv357rex2860 , _:node17sv357rex2861 , _:node17sv357rex2854 , _:node17sv357rex2853 , atxa-core:docRoot .
+

@@ -1,0 +1,282 @@
+<,d00d171@gmail.com,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> a atxa-core:chronoFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4924 .
+
+_:node17sv357rex4924 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$Initializer> ;
+	atxa-jdt:index "0" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4925 .
+
+_:node17sv357rex4925 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$Initializer.initialize(int,)> ;
+	atxa-jdt:index "0" ;
+	atxa-core:contains _:node17sv357rex4926 .
+
+_:node17sv357rex4926 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails.ifPlayersCountPossible(int,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails.ifPlayersCountPossible(int,)> atxa-core:link _:node17sv357rex4927 .
+
+_:node17sv357rex4928 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4926 ;
+	rdf:object _:node17sv357rex4927 ;
+	atxa-core:name "ifPlayersCountPossible(playersCount)" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4929 .
+
+_:node17sv357rex4929 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer.initializeItems(int,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer.initializeItems(int,)> atxa-core:link _:node17sv357rex4930 .
+
+_:node17sv357rex4931 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4929 ;
+	rdf:object _:node17sv357rex4930 ;
+	atxa-core:name "initializeItems(playersCount)" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4932 .
+
+_:node17sv357rex4932 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer.initializePawns(int,Map,)> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer.initializePawns(int,Map,)> atxa-core:link _:node17sv357rex4933 .
+
+_:node17sv357rex4934 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4932 ;
+	rdf:object _:node17sv357rex4933 ;
+	atxa-core:name "initializePawns(playersCount, items)" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4935 .
+
+_:node17sv357rex4935 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer.initializeBoard(int,Map,Map,)> ;
+	atxa-jdt:index "3" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer.initializeBoard(int,Map,Map,)> atxa-core:link _:node17sv357rex4936 .
+
+_:node17sv357rex4937 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4935 ;
+	rdf:object _:node17sv357rex4936 ;
+	atxa-core:name "initializeBoard(playersCount, items, pawns)" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4938 .
+
+_:node17sv357rex4938 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer.initializePlayers(int,Map,Map,)> ;
+	atxa-jdt:index "4" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer.initializePlayers(int,Map,Map,)> atxa-core:link _:node17sv357rex4939 .
+
+_:node17sv357rex4940 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4938 ;
+	rdf:object _:node17sv357rex4939 ;
+	atxa-core:name "initializePlayers(playersCount, items, pawns)" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4941 .
+
+_:node17sv357rex4941 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.TurnLogic()> ;
+	atxa-jdt:index "5" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.TurnLogic()> atxa-core:link _:node17sv357rex4942 .
+
+_:node17sv357rex4943 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4941 ;
+	rdf:object _:node17sv357rex4942 ;
+	atxa-core:name "TurnLogic()" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4944 .
+
+_:node17sv357rex4944 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.setStartState(State,)> ;
+	atxa-jdt:index "6" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.setStartState(State,)> atxa-core:link _:node17sv357rex4945 .
+
+_:node17sv357rex4946 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4944 ;
+	rdf:object _:node17sv357rex4945 ;
+	atxa-core:name "setStartState(getInitialState(board, players, turnLogic))" .
+
+_:node17sv357rex4925 atxa-core:contains _:node17sv357rex4947 .
+
+_:node17sv357rex4947 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game.Game(TurnLogic,)> ;
+	atxa-jdt:index "7" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game.Game(TurnLogic,)> atxa-core:link _:node17sv357rex4948 .
+
+_:node17sv357rex4949 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4947 ;
+	rdf:object _:node17sv357rex4948 ;
+	atxa-core:name "Game(turnLogic)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4918 .
+
+_:node17sv357rex4918 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails> ;
+	atxa-jdt:index "1" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4927 .
+
+_:node17sv357rex4927 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails.ifPlayersCountPossible(int,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4950 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4927 ;
+	rdf:object _:node17sv357rex4926 ;
+	atxa-core:name "boolean" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4919 .
+
+_:node17sv357rex4919 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer> ;
+	atxa-jdt:index "2" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4930 .
+
+_:node17sv357rex4930 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer.initializeItems(int,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4951 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4930 ;
+	rdf:object _:node17sv357rex4929 ;
+	atxa-core:name "Map<String,Item>" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4920 .
+
+_:node17sv357rex4920 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer> ;
+	atxa-jdt:index "3" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4933 .
+
+_:node17sv357rex4933 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer.initializePawns(int,Map,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4952 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4933 ;
+	rdf:object _:node17sv357rex4932 ;
+	atxa-core:name "Map<String,Pawn>" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4921 .
+
+_:node17sv357rex4921 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer> ;
+	atxa-jdt:index "4" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4936 .
+
+_:node17sv357rex4936 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer.initializeBoard(int,Map,Map,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4953 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4936 ;
+	rdf:object _:node17sv357rex4935 ;
+	atxa-core:name "Board" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4922 .
+
+_:node17sv357rex4922 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> ;
+	atxa-jdt:index "5" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4939 .
+
+_:node17sv357rex4939 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer.initializePlayers(int,Map,Map,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4954 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4939 ;
+	rdf:object _:node17sv357rex4938 ;
+	atxa-core:name "List<Player>" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4955 .
+
+_:node17sv357rex4955 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic> ;
+	atxa-jdt:index "6" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4942 .
+
+_:node17sv357rex4942 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.TurnLogic()> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4956 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4942 ;
+	rdf:object _:node17sv357rex4941 ;
+	atxa-core:name "TurnLogic" .
+
+_:node17sv357rex4955 atxa-core:contains _:node17sv357rex4945 .
+
+_:node17sv357rex4945 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.setStartState(State,)> ;
+	atxa-jdt:index "1" .
+
+_:node17sv357rex4957 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4945 ;
+	rdf:object _:node17sv357rex4944 ;
+	atxa-core:name "void" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4958 .
+
+_:node17sv357rex4958 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game> ;
+	atxa-jdt:index "7" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4948 .
+
+_:node17sv357rex4948 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game.Game(TurnLogic,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4959 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4948 ;
+	rdf:object _:node17sv357rex4947 ;
+	atxa-core:name "Game" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slInicjalizacja.atxa> atxa-core:contains _:node17sv357rex4923 .
+
+_:node17sv357rex4923 a atxa-core:controlflow ;
+	atxa-core:model _:node17sv357rex4923 ;
+	atxa-core:controlflowname atxa-core:ifBlock ;
+	atxa-core:thenStmt "Map<String,Item> initializeItems(int)  contained in  : Initializer" , "Map<String,Pawn> initializePawns(int, Map<String,Item>)  contained in  : Initializer" , "Board initializeBoard(int, Map<String,Item>, Map<String,Pawn>)  contained in  : Initializer" , "List<Player> initializePlayers(int, Map<String,Item>, Map<String,Pawn>)  contained in  : Initializer" , "TurnLogic()  contained in  : Initializer" , "void setStartState(State)  contained in  : Initializer" , "Game(TurnLogic)  contained in  : Initializer" ;
+	atxa-core:name "gameDetails.ifPlayersCountPossible(playersCount)" .
+

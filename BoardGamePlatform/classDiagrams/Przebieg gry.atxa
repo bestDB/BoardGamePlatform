@@ -1,0 +1,278 @@
+<,d00d171@gmail.com,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> a atxa-core:chronoFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4879 .
+
+_:node17sv357rex4879 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game> ;
+	atxa-jdt:index "0" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node17sv357rex4880 .
+
+_:node17sv357rex4880 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Game.start()> ;
+	atxa-jdt:index "0" ;
+	atxa-core:contains _:node17sv357rex4881 .
+
+_:node17sv357rex4881 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.gameEnded()> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.gameEnded()> atxa-core:link _:node17sv357rex4882 .
+
+_:node17sv357rex4883 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4881 ;
+	rdf:object _:node17sv357rex4882 ;
+	atxa-core:name "gameEnded()" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4884 .
+
+_:node17sv357rex4884 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getCurrentPlayer()> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getCurrentPlayer()> atxa-core:link _:node17sv357rex4885 .
+
+_:node17sv357rex4886 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4884 ;
+	rdf:object _:node17sv357rex4885 ;
+	atxa-core:name "getCurrentPlayer()" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4887 .
+
+_:node17sv357rex4887 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getContext()> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getContext()> atxa-core:link _:node17sv357rex4888 .
+
+_:node17sv357rex4889 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4887 ;
+	rdf:object _:node17sv357rex4888 ;
+	atxa-core:name "getContext()" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4890 .
+
+_:node17sv357rex4890 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap.HashMap()> ;
+	atxa-jdt:index "3" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap.HashMap()> atxa-core:link _:node17sv357rex4891 .
+
+_:node17sv357rex4892 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4890 ;
+	rdf:object _:node17sv357rex4891 ;
+	atxa-core:name "HashMap()" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4893 .
+
+_:node17sv357rex4893 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getAllPlayers()> ;
+	atxa-jdt:index "4" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getAllPlayers()> atxa-core:link _:node17sv357rex4894 .
+
+_:node17sv357rex4895 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4893 ;
+	rdf:object _:node17sv357rex4894 ;
+	atxa-core:name "getAllPlayers()" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4896 .
+
+_:node17sv357rex4896 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$Map.put(Object,Object,)> ;
+	atxa-jdt:index "5" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#java.util$Map.put(Object,Object,)> atxa-core:link _:node17sv357rex4897 .
+
+_:node17sv357rex4898 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4896 ;
+	rdf:object _:node17sv357rex4897 ;
+	atxa-core:name "put(p, makeOtherTurn(context))" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4899 .
+
+_:node17sv357rex4899 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Player.makeCurrentTurn(Context,)> ;
+	atxa-jdt:index "6" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Player.makeCurrentTurn(Context,)> atxa-core:link _:node17sv357rex4900 .
+
+_:node17sv357rex4901 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4899 ;
+	rdf:object _:node17sv357rex4900 ;
+	atxa-core:name "makeCurrentTurn(context)" .
+
+_:node17sv357rex4880 atxa-core:contains _:node17sv357rex4902 .
+
+_:node17sv357rex4902 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.makeTurn(TurnResult,Map,)> ;
+	atxa-jdt:index "7" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.makeTurn(TurnResult,Map,)> atxa-core:link _:node17sv357rex4903 .
+
+_:node17sv357rex4904 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node17sv357rex4902 ;
+	rdf:object _:node17sv357rex4903 ;
+	atxa-core:name "makeTurn(currTurnResult, otherTurnResult)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4872 .
+
+_:node17sv357rex4872 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic> ;
+	atxa-jdt:index "1" ;
+	atxa-core:instanceName "turnLogic" ;
+	atxa-core:contains _:node17sv357rex4882 .
+
+_:node17sv357rex4882 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.gameEnded()> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4905 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4882 ;
+	rdf:object _:node17sv357rex4881 ;
+	atxa-core:name "boolean" .
+
+_:node17sv357rex4872 atxa-core:contains _:node17sv357rex4885 .
+
+_:node17sv357rex4885 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getCurrentPlayer()> ;
+	atxa-jdt:index "1" .
+
+_:node17sv357rex4906 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4885 ;
+	rdf:object _:node17sv357rex4884 ;
+	atxa-core:name "Player" .
+
+_:node17sv357rex4872 atxa-core:contains _:node17sv357rex4888 .
+
+_:node17sv357rex4888 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getContext()> ;
+	atxa-jdt:index "2" .
+
+_:node17sv357rex4907 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4888 ;
+	rdf:object _:node17sv357rex4887 ;
+	atxa-core:name "Context" .
+
+_:node17sv357rex4872 atxa-core:contains _:node17sv357rex4894 .
+
+_:node17sv357rex4894 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.getAllPlayers()> ;
+	atxa-jdt:index "3" .
+
+_:node17sv357rex4908 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4894 ;
+	rdf:object _:node17sv357rex4893 ;
+	atxa-core:name "List<Player>" .
+
+_:node17sv357rex4872 atxa-core:contains _:node17sv357rex4903 .
+
+_:node17sv357rex4903 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnLogic.makeTurn(TurnResult,Map,)> ;
+	atxa-jdt:index "4" .
+
+_:node17sv357rex4909 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4903 ;
+	rdf:object _:node17sv357rex4902 ;
+	atxa-core:name "void" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4873 .
+
+_:node17sv357rex4873 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap> ;
+	atxa-jdt:index "2" ;
+	atxa-core:instanceName "otherTurnResult" ;
+	atxa-core:contains _:node17sv357rex4891 .
+
+_:node17sv357rex4891 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$HashMap.HashMap()> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4910 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4891 ;
+	rdf:object _:node17sv357rex4890 ;
+	atxa-core:name "HashMap<Player,TurnResult>" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4874 .
+
+_:node17sv357rex4874 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$Map> ;
+	atxa-jdt:index "3" ;
+	atxa-core:instanceName "otherTurnResult" ;
+	atxa-core:contains _:node17sv357rex4897 .
+
+_:node17sv357rex4897 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#java.util$Map.put(Object,Object,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4911 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4897 ;
+	rdf:object _:node17sv357rex4896 ;
+	atxa-core:name "java/lang/Object" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4875 .
+
+_:node17sv357rex4875 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Player> ;
+	atxa-jdt:index "4" ;
+	atxa-core:instanceName "currPlayer" ;
+	atxa-core:contains _:node17sv357rex4900 .
+
+_:node17sv357rex4900 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$Player.makeCurrentTurn(Context,)> ;
+	atxa-jdt:index "0" .
+
+_:node17sv357rex4912 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node17sv357rex4900 ;
+	rdf:object _:node17sv357rex4899 ;
+	atxa-core:name "TurnResult" .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slPrzebieg gry.atxa> atxa-core:contains _:node17sv357rex4876 .
+
+_:node17sv357rex4876 a atxa-core:controlflow ;
+	atxa-core:model _:node17sv357rex4876 ;
+	atxa-core:controlflowname atxa-core:loopBlock ;
+	atxa-core:loopStmt "Player getCurrentPlayer()  contained in  : Game" , "Context getContext()  contained in  : Game" , "HashMap()  contained in  : Game" , "List<Player> getAllPlayers()  contained in  : Game" , "V put(K, V)  contained in  : Game" , "List<Player> getAllPlayers()  contained in  : Game" , "TurnResult makeCurrentTurn(Context)  contained in  : Game" , "void makeTurn(TurnResult, Map<Player,TurnResult>)  contained in  : Game" , "boolean gameEnded()  contained in  : Game" ;
+	atxa-core:name "!turnLogic.gameEnded()" ;
+	atxa-core:contains _:node17sv357rex4877 .
+
+_:node17sv357rex4877 a atxa-core:controlflow ;
+	atxa-core:model _:node17sv357rex4877 ;
+	atxa-core:controlflowname atxa-core:loopBlock ;
+	atxa-core:loopStmt "V put(K, V)  contained in  : Game" , "List<Player> getAllPlayers()  contained in  : Game" ;
+	atxa-core:name "turnLogic.getAllPlayers()" ;
+	atxa-core:contains _:node17sv357rex4878 .
+
+_:node17sv357rex4878 a atxa-core:controlflow ;
+	atxa-core:model _:node17sv357rex4878 ;
+	atxa-core:controlflowname atxa-core:ifBlock ;
+	atxa-core:thenStmt "V put(K, V)  contained in  : Game" ;
+	atxa-core:name "p != currPlayer" .
+

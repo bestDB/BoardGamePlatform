@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.5">
+<TITLE>boardGamePlatform.tests.FieldTest (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">FieldTest.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<FONT ID="LN">1   </FONT><A NAME="1"></A><FONT ID="MultiLineComment">/*
+<FONT ID="LN">2   </FONT><A NAME="2"></A> * 
+<FONT ID="LN">3   </FONT><A NAME="3"></A> */</FONT>
+<FONT ID="LN">4   </FONT><A NAME="4"></A><FONT ID="Package">package</FONT> boardGamePlatform.tests;
+<FONT ID="LN">5   </FONT><A NAME="5"></A>
+<FONT ID="LN">6   </FONT><A NAME="6"></A><FONT ID="Import">import</FONT> <FONT ID="Static">static</FONT> org.junit.Assert.*;
+<FONT ID="LN">7   </FONT><A NAME="7"></A>
+<FONT ID="LN">8   </FONT><A NAME="8"></A><FONT ID="Import">import</FONT> java.util.HashMap;
+<FONT ID="LN">9   </FONT><A NAME="9"></A><FONT ID="Import">import</FONT> java.util.LinkedList;
+<FONT ID="LN">10  </FONT><A NAME="10"></A><FONT ID="Import">import</FONT> java.util.List;
+<FONT ID="LN">11  </FONT><A NAME="11"></A><FONT ID="Import">import</FONT> java.util.Map;
+<FONT ID="LN">12  </FONT><A NAME="12"></A>
+<FONT ID="LN">13  </FONT><A NAME="13"></A>
+<FONT ID="LN">14  </FONT><A NAME="14"></A><FONT ID="Import">import</FONT> org.junit.Test;
+<FONT ID="LN">15  </FONT><A NAME="15"></A>
+<FONT ID="LN">16  </FONT><A NAME="16"></A><FONT ID="Import">import</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">boardGamePlatform.gameResources.Field</A>;
+<FONT ID="LN">17  </FONT><A NAME="17"></A><FONT ID="Import">import</FONT> <A HREF="../../boardGamePlatform/gameResources/Item.java.html">boardGamePlatform.gameResources.Item</A>;
+<FONT ID="LN">18  </FONT><A NAME="18"></A><FONT ID="Import">import</FONT> <A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">boardGamePlatform.gameResources.Pawn</A>;
+<FONT ID="LN">19  </FONT><A NAME="19"></A><FONT ID="Import">import</FONT> <A HREF="../../boardGamePlatform/platformExceptions/FieldNotHasNeihgboursException.java.html">boardGamePlatform.platformExceptions.FieldNotHasNeihgboursException</A>;
+<FONT ID="LN">20  </FONT><A NAME="20"></A>
+<FONT ID="LN">21  </FONT><A NAME="21"></A><FONT ID="SingleLineComment">// TODO: Auto-generated Javadoc
+<FONT ID="LN">22  </FONT><A NAME="22"></A></FONT><FONT ID="FormalComment">/**
+<FONT ID="LN">23  </FONT><A NAME="23"></A> * The Class FieldTest.
+<FONT ID="LN">24  </FONT><A NAME="24"></A> */</FONT>
+<FONT ID="LN">25  </FONT><A NAME="25"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> FieldTest {
+<FONT ID="LN">26  </FONT><A NAME="26"></A>
+<FONT ID="LN">27  </FONT><A NAME="27"></A>    <FONT ID="FormalComment">/**
+<FONT ID="LN">28  </FONT><A NAME="28"></A>     * Test field constructors.
+<FONT ID="LN">29  </FONT><A NAME="29"></A>     */</FONT>
+<FONT ID="LN">30  </FONT><A NAME="30"></A>    @Test
+<FONT ID="LN">31  </FONT><A NAME="31"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> testFieldConstructors() {
+<FONT ID="LN">32  </FONT><A NAME="32"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> f = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">33  </FONT><A NAME="33"></A>        List&lt;<A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>&gt; neighbours = <FONT ID="New">new</FONT> LinkedList&lt;<A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>&gt;();
+<FONT ID="LN">34  </FONT><A NAME="34"></A>        List&lt;<A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">Pawn</A>&gt; pawns = <FONT ID="New">new</FONT> LinkedList&lt;<A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">Pawn</A>&gt;();
+<FONT ID="LN">35  </FONT><A NAME="35"></A>        Map&lt;String, <A HREF="../../boardGamePlatform/gameResources/Item.java.html">Item</A>&gt; items= <FONT ID="New">new</FONT> HashMap&lt;String, <A HREF="../../boardGamePlatform/gameResources/Item.java.html">Item</A>&gt;();
+<FONT ID="LN">36  </FONT><A NAME="36"></A>        pawns.add(<FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">Pawn</A>(<FONT ID="IntegerLiteral">0</FONT>));
+<FONT ID="LN">37  </FONT><A NAME="37"></A>        items.put(<FONT ID="StringLiteral">"name"</FONT>,<FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Item.java.html">Item</A>(<FONT ID="IntegerLiteral">0</FONT>));
+<FONT ID="LN">38  </FONT><A NAME="38"></A>        
+<FONT ID="LN">39  </FONT><A NAME="39"></A>        f.setGraphicsID(<FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">40  </FONT><A NAME="40"></A>        f.setNeighbourFields(neighbours);
+<FONT ID="LN">41  </FONT><A NAME="41"></A>        f.setPawns(pawns);
+<FONT ID="LN">42  </FONT><A NAME="42"></A>        f.setItems(items);
+<FONT ID="LN">43  </FONT><A NAME="43"></A>        
+<FONT ID="LN">44  </FONT><A NAME="44"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> cons1 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">45  </FONT><A NAME="45"></A>        assertEquals(cons1.getID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">46  </FONT><A NAME="46"></A>        assertEquals(cons1.getGraphicsID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">47  </FONT><A NAME="47"></A>        assertEquals(cons1.getNeighbourFields(), f.getNeighbourFields());
+<FONT ID="LN">48  </FONT><A NAME="48"></A>        
+<FONT ID="LN">49  </FONT><A NAME="49"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> cons2 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="IntegerLiteral">0</FONT>,pawns);
+<FONT ID="LN">50  </FONT><A NAME="50"></A>        assertEquals(cons2.getID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">51  </FONT><A NAME="51"></A>        assertEquals(cons2.getGraphicsID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">52  </FONT><A NAME="52"></A>        assertEquals(cons2.getFieldsPawns(), pawns);
+<FONT ID="LN">53  </FONT><A NAME="53"></A>        assertEquals(cons2.getNeighbourFields(), f.getNeighbourFields());
+<FONT ID="LN">54  </FONT><A NAME="54"></A>        
+<FONT ID="LN">55  </FONT><A NAME="55"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> cons21 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="Null">null</FONT>);
+<FONT ID="LN">56  </FONT><A NAME="56"></A>        assertEquals(cons21.getID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">57  </FONT><A NAME="57"></A>        assertEquals(cons21.getGraphicsID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">58  </FONT><A NAME="58"></A>        assertEquals(cons21.getFieldsPawns(), <FONT ID="New">new</FONT> LinkedList&lt;<A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">Pawn</A>&gt;());
+<FONT ID="LN">59  </FONT><A NAME="59"></A>        assertEquals(cons21.getNeighbourFields(), f.getNeighbourFields());
+<FONT ID="LN">60  </FONT><A NAME="60"></A>        
+<FONT ID="LN">61  </FONT><A NAME="61"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> cons3 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="IntegerLiteral">0</FONT>,pawns,items);
+<FONT ID="LN">62  </FONT><A NAME="62"></A>        assertEquals(cons3.getID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">63  </FONT><A NAME="63"></A>        assertEquals(cons3.getGraphicsID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">64  </FONT><A NAME="64"></A>        assertEquals(cons3.getFieldsPawns(), f.getFieldsPawns());
+<FONT ID="LN">65  </FONT><A NAME="65"></A>        assertEquals(cons3.getItems(), f.getItems());
+<FONT ID="LN">66  </FONT><A NAME="66"></A>        assertEquals(cons3.getNeighbourFields(), f.getNeighbourFields());
+<FONT ID="LN">67  </FONT><A NAME="67"></A>        
+<FONT ID="LN">68  </FONT><A NAME="68"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> cons31 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">1</FONT>,<FONT ID="IntegerLiteral">0</FONT>,<FONT ID="Null">null</FONT>,<FONT ID="Null">null</FONT>);
+<FONT ID="LN">69  </FONT><A NAME="69"></A>        assertEquals(cons31.getID(), <FONT ID="IntegerLiteral">1</FONT>);
+<FONT ID="LN">70  </FONT><A NAME="70"></A>        assertEquals(cons31.getGraphicsID(), <FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">71  </FONT><A NAME="71"></A>        assertEquals(cons31.getFieldsPawns(), <FONT ID="New">new</FONT> LinkedList&lt;<A HREF="../../boardGamePlatform/gameResources/Pawn.java.html">Pawn</A>&gt;());
+<FONT ID="LN">72  </FONT><A NAME="72"></A>        assertEquals(cons31.getItems(), <FONT ID="New">new</FONT> HashMap&lt;String, <A HREF="../../boardGamePlatform/gameResources/Item.java.html">Item</A>&gt;());
+<FONT ID="LN">73  </FONT><A NAME="73"></A>        assertEquals(cons31.getNeighbourFields(), f.getNeighbourFields());
+<FONT ID="LN">74  </FONT><A NAME="74"></A>        
+<FONT ID="LN">75  </FONT><A NAME="75"></A>    }
+<FONT ID="LN">76  </FONT><A NAME="76"></A>    
+<FONT ID="LN">77  </FONT><A NAME="77"></A>    <FONT ID="FormalComment">/**
+<FONT ID="LN">78  </FONT><A NAME="78"></A>     * Test getting setting neighbours.
+<FONT ID="LN">79  </FONT><A NAME="79"></A>     *
+<FONT ID="LN">80  </FONT><A NAME="80"></A>     * @throws FieldNotHasNeihgboursException the field not has neihgbours exception
+<FONT ID="LN">81  </FONT><A NAME="81"></A>     */</FONT>
+<FONT ID="LN">82  </FONT><A NAME="82"></A>    @Test(expected = <A HREF="../../boardGamePlatform/platformExceptions/FieldNotHasNeihgboursException.java.html">FieldNotHasNeihgboursException</A>.<FONT ID="Class">class</FONT> )
+<FONT ID="LN">83  </FONT><A NAME="83"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> testGettingSettingNeighbours() <FONT ID="Throws">throws</FONT> <A HREF="../../boardGamePlatform/platformExceptions/FieldNotHasNeihgboursException.java.html">FieldNotHasNeihgboursException</A> {
+<FONT ID="LN">84  </FONT><A NAME="84"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> f = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">0</FONT>);
+<FONT ID="LN">85  </FONT><A NAME="85"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> f1 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">1</FONT>);
+<FONT ID="LN">86  </FONT><A NAME="86"></A>        <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A> f2 = <FONT ID="New">new</FONT> <A HREF="../../boardGamePlatform/gameResources/Field.java.html">Field</A>(<FONT ID="IntegerLiteral">2</FONT>);
+<FONT ID="LN">87  </FONT><A NAME="87"></A>        
+<FONT ID="LN">88  </FONT><A NAME="88"></A>        assertEquals(f.getFirstNeighbour(), <FONT ID="Null">null</FONT>);
+<FONT ID="LN">89  </FONT><A NAME="89"></A>        assertEquals(f.getLastNeighbour(), <FONT ID="Null">null</FONT>);
+<FONT ID="LN">90  </FONT><A NAME="90"></A>        
+<FONT ID="LN">91  </FONT><A NAME="91"></A>        f.addNeighbourField(f1);
+<FONT ID="LN">92  </FONT><A NAME="92"></A>        assertEquals(f.getFirstNeighbour(), f1);
+<FONT ID="LN">93  </FONT><A NAME="93"></A>        assertEquals(f.getLastNeighbour(), f1);
+<FONT ID="LN">94  </FONT><A NAME="94"></A>        
+<FONT ID="LN">95  </FONT><A NAME="95"></A>        f.addNeighbourField(f2);
+<FONT ID="LN">96  </FONT><A NAME="96"></A>        assertEquals(f.getFirstNeighbour(), f1);
+<FONT ID="LN">97  </FONT><A NAME="97"></A>        assertEquals(f.getLastNeighbour(), f2);
+<FONT ID="LN">98  </FONT><A NAME="98"></A>        
+<FONT ID="LN">99  </FONT><A NAME="99"></A>    }
+<FONT ID="LN">100 </FONT><A NAME="100"></A>
+<FONT ID="LN">101 </FONT><A NAME="101"></A>}
+<FONT ID="LN">102 </FONT><A NAME="102"></A></pre>
+</BODY>
+</HTML>

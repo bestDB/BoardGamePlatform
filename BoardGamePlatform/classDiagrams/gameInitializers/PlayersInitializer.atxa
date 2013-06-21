@@ -1,0 +1,47 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slPlayersInitializer.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2935 .
+
+_:node17sv357rex2935 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> ;
+	atxa-core:posX "98" ;
+	atxa-core:posY "59" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> .
+
+_:node17sv357rex2935 atxa-core:contains _:node17sv357rex2936 .
+
+_:node17sv357rex2936 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> ;
+	atxa-core:posX "104" ;
+	atxa-core:posY "84" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer.initializePlayers(int,Map,Map,)> .
+
+_:node17sv357rex2936 atxa-core:contains _:node17sv357rex2937 .
+
+_:node17sv357rex2937 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer.initializePlayers(int,Map,Map,)> ;
+	atxa-core:posX "105" ;
+	atxa-core:posY "102" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slPlayersInitializer.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2937 , _:node17sv357rex2936 , _:node17sv357rex2935 , atxa-core:docRoot , _:node17sv357rex2937 , _:node17sv357rex2936 , _:node17sv357rex2935 , atxa-core:docRoot .
+

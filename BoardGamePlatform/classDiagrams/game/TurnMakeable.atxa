@@ -1,0 +1,47 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slTurnMakeable.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2843 .
+
+_:node17sv357rex2843 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> ;
+	atxa-core:posX "67" ;
+	atxa-core:posY "36" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnMakeable> .
+
+_:node17sv357rex2843 atxa-core:contains _:node17sv357rex2844 .
+
+_:node17sv357rex2844 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnMakeable> ;
+	atxa-core:posX "73" ;
+	atxa-core:posY "61" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnMakeable> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnMakeable.makeTurn(Context,)> .
+
+_:node17sv357rex2844 atxa-core:contains _:node17sv357rex2845 .
+
+_:node17sv357rex2845 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$TurnMakeable.makeTurn(Context,)> ;
+	atxa-core:posX "74" ;
+	atxa-core:posY "79" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slTurnMakeable.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2845 , _:node17sv357rex2844 , _:node17sv357rex2843 , atxa-core:docRoot , _:node17sv357rex2845 , _:node17sv357rex2844 , _:node17sv357rex2843 , atxa-core:docRoot .
+

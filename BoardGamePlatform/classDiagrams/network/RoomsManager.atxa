@@ -1,0 +1,54 @@
+<,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slRoomsManager.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex4679 .
+
+_:node17sv357rex4679 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> ;
+	atxa-core:posX "598" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager> .
+
+_:node17sv357rex4679 atxa-core:contains _:node17sv357rex4680 .
+
+_:node17sv357rex4680 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager> ;
+	atxa-core:posX "604" ;
+	atxa-core:posY "318" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.joinFirstAvailableRoom(String,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.makeRoom(String,int,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,String,)> .
+
+_:node17sv357rex4680 atxa-core:contains _:node17sv357rex4681 .
+
+_:node17sv357rex4681 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.joinFirstAvailableRoom(String,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,)> ;
+	atxa-core:posX "605" ;
+	atxa-core:posY "336" .
+
+_:node17sv357rex4680 atxa-core:contains _:node17sv357rex4682 .
+
+_:node17sv357rex4682 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RoomsManager.makeRoom(String,int,RemoteTurnHandlable,RemoteTurnHandlable,GameHasEndedCallback,String,)> ;
+	atxa-core:posX "605" ;
+	atxa-core:posY "352" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slRoomsManager.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex4681 , _:node17sv357rex4682 , _:node17sv357rex4680 , _:node17sv357rex4679 , atxa-core:docRoot , _:node17sv357rex4681 , _:node17sv357rex4682 , _:node17sv357rex4680 , _:node17sv357rex4679 , atxa-core:docRoot .
+

@@ -1,0 +1,47 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slStateChangable.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2798 .
+
+_:node17sv357rex2798 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> ;
+	atxa-core:posX "73" ;
+	atxa-core:posY "35" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$StateChangable> .
+
+_:node17sv357rex2798 atxa-core:contains _:node17sv357rex2799 .
+
+_:node17sv357rex2799 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$StateChangable> ;
+	atxa-core:posX "79" ;
+	atxa-core:posY "60" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$StateChangable> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$StateChangable.changeState(State,)> .
+
+_:node17sv357rex2799 atxa-core:contains _:node17sv357rex2800 .
+
+_:node17sv357rex2800 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game$StateChangable.changeState(State,)> ;
+	atxa-core:posX "80" ;
+	atxa-core:posY "78" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgame_slStateChangable.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2800 , _:node17sv357rex2799 , _:node17sv357rex2798 , atxa-core:docRoot , _:node17sv357rex2800 , _:node17sv357rex2799 , _:node17sv357rex2798 , atxa-core:docRoot .
+

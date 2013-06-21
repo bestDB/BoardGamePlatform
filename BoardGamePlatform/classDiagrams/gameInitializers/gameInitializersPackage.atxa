@@ -1,0 +1,80 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slgameInitializersPackage.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex3296 .
+
+_:node17sv357rex3296 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> ;
+	atxa-core:posX "90" ;
+	atxa-core:posY "51" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$Initializer> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3297 .
+
+_:node17sv357rex3297 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameDetails> ;
+	atxa-core:posX "96" ;
+	atxa-core:posY "76" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3298 .
+
+_:node17sv357rex3298 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory> ;
+	atxa-core:posX "215" ;
+	atxa-core:posY "76" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3299 .
+
+_:node17sv357rex3299 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$Initializer> ;
+	atxa-core:posX "228" ;
+	atxa-core:posY "125" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3300 .
+
+_:node17sv357rex3300 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$BoardInitializer> ;
+	atxa-core:posX "337" ;
+	atxa-core:posY "76" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3301 .
+
+_:node17sv357rex3301 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$ItemsInitializer> ;
+	atxa-core:posX "96" ;
+	atxa-core:posY "125" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3302 .
+
+_:node17sv357rex3302 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PawnsInitializer> ;
+	atxa-core:posX "96" ;
+	atxa-core:posY "174" .
+
+_:node17sv357rex3296 atxa-core:contains _:node17sv357rex3303 .
+
+_:node17sv357rex3303 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$PlayersInitializer> ;
+	atxa-core:posX "328" ;
+	atxa-core:posY "125" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slgameInitializersPackage.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex3297 , _:node17sv357rex3298 , _:node17sv357rex3299 , _:node17sv357rex3300 , _:node17sv357rex3301 , _:node17sv357rex3302 , _:node17sv357rex3303 , _:node17sv357rex3296 , atxa-core:docRoot , _:node17sv357rex3297 , _:node17sv357rex3298 , _:node17sv357rex3299 , _:node17sv357rex3300 , _:node17sv357rex3301 , _:node17sv357rex3302 , _:node17sv357rex3303 , _:node17sv357rex3296 , atxa-core:docRoot .
+

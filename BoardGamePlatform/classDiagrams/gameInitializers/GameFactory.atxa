@@ -1,0 +1,96 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slGameFactory.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2881 .
+
+_:node17sv357rex2881 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> ;
+	atxa-core:posX "20" ;
+	atxa-core:posY "42" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory> .
+
+_:node17sv357rex2881 atxa-core:contains _:node17sv357rex2882 .
+
+_:node17sv357rex2882 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory> ;
+	atxa-core:posX "26" ;
+	atxa-core:posY "67" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createBoardInitializer()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createCurrentTurnHandler()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createGameDetails()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createInitialState(Board,List,TurnLogic,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createItemsInitializer()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createOtherTurnHandler()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createPawnsInitializer()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createPlayersInitializer()> .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2883 .
+
+_:node17sv357rex2883 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createBoardInitializer()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "85" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2884 .
+
+_:node17sv357rex2884 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createCurrentTurnHandler()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "101" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2885 .
+
+_:node17sv357rex2885 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createGameDetails()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "117" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2886 .
+
+_:node17sv357rex2886 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createInitialState(Board,List,TurnLogic,)> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "133" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2887 .
+
+_:node17sv357rex2887 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createItemsInitializer()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "149" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2888 .
+
+_:node17sv357rex2888 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createOtherTurnHandler()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "165" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2889 .
+
+_:node17sv357rex2889 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createPawnsInitializer()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "181" .
+
+_:node17sv357rex2882 atxa-core:contains _:node17sv357rex2890 .
+
+_:node17sv357rex2890 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers$GameFactory.createPlayersInitializer()> ;
+	atxa-core:posX "27" ;
+	atxa-core:posY "197" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameInitializers_slGameFactory.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2883 , _:node17sv357rex2884 , _:node17sv357rex2885 , _:node17sv357rex2886 , _:node17sv357rex2887 , _:node17sv357rex2888 , _:node17sv357rex2889 , _:node17sv357rex2890 , _:node17sv357rex2882 , _:node17sv357rex2881 , atxa-core:docRoot , _:node17sv357rex2883 , _:node17sv357rex2884 , _:node17sv357rex2885 , _:node17sv357rex2886 , _:node17sv357rex2887 , _:node17sv357rex2888 , _:node17sv357rex2889 , _:node17sv357rex2890 , _:node17sv357rex2882 , _:node17sv357rex2881 , atxa-core:docRoot .
+

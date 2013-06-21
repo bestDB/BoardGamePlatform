@@ -1,0 +1,278 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameResources_slField.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2960 .
+
+_:node17sv357rex2960 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> ;
+	atxa-core:posX "52" ;
+	atxa-core:posY "11" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field> .
+
+_:node17sv357rex2960 atxa-core:contains _:node17sv357rex2961 .
+
+_:node17sv357rex2961 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field> ;
+	atxa-core:posX "58" ;
+	atxa-core:posY "36" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addAttribute(String,String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addItem(String,Item,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addNeighbourField(Field,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addPawn(Pawn,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.attributes> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.clearFieldItems()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.containPawn(Pawn,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,List,Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldID> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldItems> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldPawns> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getAttribute(String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getAttributes()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFieldsPawns()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFirstNeighbour()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFirstPawn()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getID()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getItem(String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getItems()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getLastNeighbour()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getLastPawn()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getNeighbourFields()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.neighbourFields> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removeItem(String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removeNeighbourField(Field,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removePawn(Pawn,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setAttribute(String,String,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setAttributes(Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setItems(Map,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setNeighbourFields(List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setPawns(List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.toString(String,)> .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2962 .
+
+_:node17sv357rex2962 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addAttribute(String,String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "134" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2963 .
+
+_:node17sv357rex2963 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addItem(String,Item,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "150" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2964 .
+
+_:node17sv357rex2964 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addNeighbourField(Field,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "166" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2965 .
+
+_:node17sv357rex2965 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.addPawn(Pawn,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "182" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2966 .
+
+_:node17sv357rex2966 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.attributes> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "54" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2967 .
+
+_:node17sv357rex2967 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.clearFieldItems()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "198" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2968 .
+
+_:node17sv357rex2968 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.containPawn(Pawn,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "214" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2969 .
+
+_:node17sv357rex2969 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,List,Map,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "230" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2970 .
+
+_:node17sv357rex2970 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,List,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "246" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2971 .
+
+_:node17sv357rex2971 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.Field(int,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "262" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2972 .
+
+_:node17sv357rex2972 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldID> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "70" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2973 .
+
+_:node17sv357rex2973 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldItems> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "86" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2974 .
+
+_:node17sv357rex2974 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.fieldPawns> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "102" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2975 .
+
+_:node17sv357rex2975 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getAttribute(String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "278" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2976 .
+
+_:node17sv357rex2976 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getAttributes()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "294" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2977 .
+
+_:node17sv357rex2977 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFieldsPawns()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "310" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2978 .
+
+_:node17sv357rex2978 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFirstNeighbour()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "326" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2979 .
+
+_:node17sv357rex2979 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getFirstPawn()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "342" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2980 .
+
+_:node17sv357rex2980 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getID()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "358" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2981 .
+
+_:node17sv357rex2981 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getItem(String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "374" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2982 .
+
+_:node17sv357rex2982 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getItems()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "390" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2983 .
+
+_:node17sv357rex2983 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getLastNeighbour()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "406" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2984 .
+
+_:node17sv357rex2984 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getLastPawn()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "422" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2985 .
+
+_:node17sv357rex2985 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.getNeighbourFields()> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "438" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2986 .
+
+_:node17sv357rex2986 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.neighbourFields> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "118" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2987 .
+
+_:node17sv357rex2987 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removeItem(String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "454" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2988 .
+
+_:node17sv357rex2988 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removeNeighbourField(Field,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "470" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2989 .
+
+_:node17sv357rex2989 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.removePawn(Pawn,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "486" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2990 .
+
+_:node17sv357rex2990 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setAttribute(String,String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "502" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2991 .
+
+_:node17sv357rex2991 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setAttributes(Map,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "518" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2992 .
+
+_:node17sv357rex2992 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setItems(Map,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "534" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2993 .
+
+_:node17sv357rex2993 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setNeighbourFields(List,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "550" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2994 .
+
+_:node17sv357rex2994 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.setPawns(List,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "566" .
+
+_:node17sv357rex2961 atxa-core:contains _:node17sv357rex2995 .
+
+_:node17sv357rex2995 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Field.toString(String,)> ;
+	atxa-core:posX "59" ;
+	atxa-core:posY "582" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameResources_slField.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2962 , _:node17sv357rex2963 , _:node17sv357rex2964 , _:node17sv357rex2965 , _:node17sv357rex2966 , _:node17sv357rex2967 , _:node17sv357rex2968 , _:node17sv357rex2969 , _:node17sv357rex2970 , _:node17sv357rex2971 , _:node17sv357rex2972 , _:node17sv357rex2973 , _:node17sv357rex2974 , _:node17sv357rex2975 , _:node17sv357rex2976 , _:node17sv357rex2977 , _:node17sv357rex2978 , _:node17sv357rex2979 , _:node17sv357rex2980 , _:node17sv357rex2981 , _:node17sv357rex2982 , _:node17sv357rex2983 , _:node17sv357rex2984 , _:node17sv357rex2985 , _:node17sv357rex2986 , _:node17sv357rex2987 , _:node17sv357rex2988 , _:node17sv357rex2989 , _:node17sv357rex2990 , _:node17sv357rex2991 , _:node17sv357rex2992 , _:node17sv357rex2993 , _:node17sv357rex2994 , _:node17sv357rex2995 , _:node17sv357rex2961 , _:node17sv357rex2960 , atxa-core:docRoot , _:node17sv357rex2962 , _:node17sv357rex2963 , _:node17sv357rex2964 , _:node17sv357rex2965 , _:node17sv357rex2966 , _:node17sv357rex2967 , _:node17sv357rex2968 , _:node17sv357rex2969 , _:node17sv357rex2970 , _:node17sv357rex2971 , _:node17sv357rex2972 , _:node17sv357rex2973 , _:node17sv357rex2974 , _:node17sv357rex2975 , _:node17sv357rex2976 , _:node17sv357rex2977 , _:node17sv357rex2978 , _:node17sv357rex2979 , _:node17sv357rex2980 , _:node17sv357rex2981 , _:node17sv357rex2982 , _:node17sv357rex2983 , _:node17sv357rex2984 , _:node17sv357rex2985 , _:node17sv357rex2986 , _:node17sv357rex2987 , _:node17sv357rex2988 , _:node17sv357rex2989 , _:node17sv357rex2990 , _:node17sv357rex2991 , _:node17sv357rex2992 , _:node17sv357rex2993 , _:node17sv357rex2994 , _:node17sv357rex2995 , _:node17sv357rex2961 , _:node17sv357rex2960 , atxa-core:docRoot .
+

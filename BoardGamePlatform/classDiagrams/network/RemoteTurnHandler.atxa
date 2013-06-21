@@ -1,0 +1,61 @@
+<,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slRemoteTurnHandler.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex4647 .
+
+_:node17sv357rex4647 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> ;
+	atxa-core:posX "584" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler> .
+
+_:node17sv357rex4647 atxa-core:contains _:node17sv357rex4648 .
+
+_:node17sv357rex4648 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler> ;
+	atxa-core:posX "590" ;
+	atxa-core:posY "318" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.makeTurn(Context,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.turnHandler> .
+
+_:node17sv357rex4648 atxa-core:contains _:node17sv357rex4649 .
+
+_:node17sv357rex4649 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.makeTurn(Context,)> ;
+	atxa-core:posX "591" ;
+	atxa-core:posY "352" .
+
+_:node17sv357rex4648 atxa-core:contains _:node17sv357rex4650 .
+
+_:node17sv357rex4650 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.RemoteTurnHandler(TurnHandler,)> ;
+	atxa-core:posX "591" ;
+	atxa-core:posY "368" .
+
+_:node17sv357rex4648 atxa-core:contains _:node17sv357rex4651 .
+
+_:node17sv357rex4651 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$RemoteTurnHandler.turnHandler> ;
+	atxa-core:posX "591" ;
+	atxa-core:posY "336" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slRemoteTurnHandler.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex4649 , _:node17sv357rex4650 , _:node17sv357rex4651 , _:node17sv357rex4648 , _:node17sv357rex4647 , atxa-core:docRoot , _:node17sv357rex4649 , _:node17sv357rex4650 , _:node17sv357rex4651 , _:node17sv357rex4648 , _:node17sv357rex4647 , atxa-core:docRoot .
+

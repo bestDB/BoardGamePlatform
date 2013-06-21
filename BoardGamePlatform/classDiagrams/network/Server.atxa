@@ -1,0 +1,68 @@
+<,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slServer.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex4687 .
+
+_:node17sv357rex4687 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> ;
+	atxa-core:posX "622" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server> .
+
+_:node17sv357rex4687 atxa-core:contains _:node17sv357rex4688 .
+
+_:node17sv357rex4688 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server> ;
+	atxa-core:posX "628" ;
+	atxa-core:posY "318" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.gameFactory> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.ip> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.port> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.Server(String,int,GameFactory,)> .
+
+_:node17sv357rex4688 atxa-core:contains _:node17sv357rex4689 .
+
+_:node17sv357rex4689 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.gameFactory> ;
+	atxa-core:posX "629" ;
+	atxa-core:posY "336" .
+
+_:node17sv357rex4688 atxa-core:contains _:node17sv357rex4690 .
+
+_:node17sv357rex4690 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.ip> ;
+	atxa-core:posX "629" ;
+	atxa-core:posY "352" .
+
+_:node17sv357rex4688 atxa-core:contains _:node17sv357rex4691 .
+
+_:node17sv357rex4691 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.port> ;
+	atxa-core:posX "629" ;
+	atxa-core:posY "368" .
+
+_:node17sv357rex4688 atxa-core:contains _:node17sv357rex4692 .
+
+_:node17sv357rex4692 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Server.Server(String,int,GameFactory,)> ;
+	atxa-core:posX "629" ;
+	atxa-core:posY "384" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slServer.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex4689 , _:node17sv357rex4690 , _:node17sv357rex4691 , _:node17sv357rex4692 , _:node17sv357rex4688 , _:node17sv357rex4687 , atxa-core:docRoot , _:node17sv357rex4689 , _:node17sv357rex4690 , _:node17sv357rex4691 , _:node17sv357rex4692 , _:node17sv357rex4688 , _:node17sv357rex4687 , atxa-core:docRoot .
+

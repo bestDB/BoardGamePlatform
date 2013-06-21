@@ -1,0 +1,82 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameResources_slboard.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex2945 .
+
+_:node17sv357rex2945 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> ;
+	atxa-core:posX "63" ;
+	atxa-core:posY "10" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board> .
+
+_:node17sv357rex2945 atxa-core:contains _:node17sv357rex2946 .
+
+_:node17sv357rex2946 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board> ;
+	atxa-core:posX "69" ;
+	atxa-core:posY "35" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.Board()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.Board(List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.fields> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.getFields()> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.setFields(List,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.toString()> .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2947 .
+
+_:node17sv357rex2947 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.Board()> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "69" .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2948 .
+
+_:node17sv357rex2948 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.Board(List,)> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "85" .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2949 .
+
+_:node17sv357rex2949 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.fields> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "53" .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2950 .
+
+_:node17sv357rex2950 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.getFields()> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "101" .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2951 .
+
+_:node17sv357rex2951 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.setFields(List,)> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "117" .
+
+_:node17sv357rex2946 atxa-core:contains _:node17sv357rex2952 .
+
+_:node17sv357rex2952 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources$Board.toString()> ;
+	atxa-core:posX "70" ;
+	atxa-core:posY "133" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slgameResources_slboard.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex2947 , _:node17sv357rex2948 , _:node17sv357rex2949 , _:node17sv357rex2950 , _:node17sv357rex2951 , _:node17sv357rex2952 , _:node17sv357rex2946 , _:node17sv357rex2945 , atxa-core:docRoot , _:node17sv357rex2947 , _:node17sv357rex2948 , _:node17sv357rex2949 , _:node17sv357rex2950 , _:node17sv357rex2951 , _:node17sv357rex2952 , _:node17sv357rex2946 , _:node17sv357rex2945 , atxa-core:docRoot .
+

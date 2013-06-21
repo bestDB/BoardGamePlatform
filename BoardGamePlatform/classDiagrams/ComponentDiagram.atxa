@@ -1,0 +1,98 @@
+<,d00d171@gmail.com,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-strata: <http://www.architexa.com/rdf/strata#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slComponentDiagram.atxa> a atxa-core:strataFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17svpoaqox1 .
+
+_:node17svpoaqox1 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.*> ;
+	atxa-strata:nestedLayerIndexes ":0,false,false,true:0,false,false,true" ;
+	atxa-strata:layerIndex "0" ;
+	atxa-strata:indexWithinLayer "0" ;
+	atxa-core:containerState "true" , "true" , "true" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.*> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.tests> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox2 .
+
+_:node17svpoaqox2 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions> ;
+	atxa-strata:nestedLayerIndexes ":0,false,false,true:3,false,false,true" ;
+	atxa-strata:layerIndex "3" ;
+	atxa-strata:indexWithinLayer "0" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox3 .
+
+_:node17svpoaqox3 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.tests> ;
+	atxa-strata:nestedLayerIndexes ":0,false,false,true:0,false,false,true" ;
+	atxa-strata:layerIndex "0" ;
+	atxa-strata:indexWithinLayer "0" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox4 .
+
+_:node17svpoaqox4 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.game> ;
+	atxa-strata:nestedLayerIndexes ":1,false,false,true:2,false,false,true" ;
+	atxa-strata:layerIndex "2" ;
+	atxa-strata:indexWithinLayer "1" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox5 .
+
+_:node17svpoaqox5 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> ;
+	atxa-strata:nestedLayerIndexes ":1,false,false,true:1,false,false,true" ;
+	atxa-strata:layerIndex "1" ;
+	atxa-strata:indexWithinLayer "1" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox6 .
+
+_:node17svpoaqox6 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> ;
+	atxa-strata:nestedLayerIndexes ":2,false,false,true:1,false,false,true" ;
+	atxa-strata:layerIndex "1" ;
+	atxa-strata:indexWithinLayer "2" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox7 .
+
+_:node17svpoaqox7 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameResources> ;
+	atxa-strata:nestedLayerIndexes ":0,false,false,true:2,false,false,true" ;
+	atxa-strata:layerIndex "2" ;
+	atxa-strata:indexWithinLayer "0" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+_:node17svpoaqox1 atxa-core:contains _:node17svpoaqox8 .
+
+_:node17svpoaqox8 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.gameInitializers> ;
+	atxa-strata:nestedLayerIndexes ":0,false,false,true:1,false,false,true" ;
+	atxa-strata:layerIndex "1" ;
+	atxa-strata:indexWithinLayer "0" ;
+	atxa-core:containerState "false" , "false" , "false" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-strata: <http://www.architexa.com/rdf/strata#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slComponentDiagram.atxa> a atxa-core:strataFile ;
+	atxa-core:contains _:node17svpoaqox2 , _:node17svpoaqox3 , _:node17svpoaqox4 , _:node17svpoaqox5 , _:node17svpoaqox6 , _:node17svpoaqox7 , _:node17svpoaqox8 , _:node17svpoaqox1 , atxa-core:docRoot , _:node17svpoaqox2 , _:node17svpoaqox3 , _:node17svpoaqox4 , _:node17svpoaqox5 , _:node17svpoaqox6 , _:node17svpoaqox7 , _:node17svpoaqox8 , _:node17svpoaqox1 , atxa-core:docRoot .
+

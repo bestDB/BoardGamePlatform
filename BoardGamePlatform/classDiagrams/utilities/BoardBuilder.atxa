@@ -1,0 +1,61 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slutilities_slBoardBuilder.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex3376 .
+
+_:node17sv357rex3376 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> ;
+	atxa-core:posX "106" ;
+	atxa-core:posY "23" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder> .
+
+_:node17sv357rex3376 atxa-core:contains _:node17sv357rex3377 .
+
+_:node17sv357rex3377 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder> ;
+	atxa-core:posX "112" ;
+	atxa-core:posY "48" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.board> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.BoardBuilder(Board,)> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.makeSimpleLinearBoard(int,)> .
+
+_:node17sv357rex3377 atxa-core:contains _:node17sv357rex3378 .
+
+_:node17sv357rex3378 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.board> ;
+	atxa-core:posX "113" ;
+	atxa-core:posY "66" .
+
+_:node17sv357rex3377 atxa-core:contains _:node17sv357rex3379 .
+
+_:node17sv357rex3379 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.BoardBuilder(Board,)> ;
+	atxa-core:posX "113" ;
+	atxa-core:posY "82" .
+
+_:node17sv357rex3377 atxa-core:contains _:node17sv357rex3380 .
+
+_:node17sv357rex3380 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder.makeSimpleLinearBoard(int,)> ;
+	atxa-core:posX "113" ;
+	atxa-core:posY "98" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slutilities_slBoardBuilder.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex3378 , _:node17sv357rex3379 , _:node17sv357rex3380 , _:node17sv357rex3377 , _:node17sv357rex3376 , atxa-core:docRoot , _:node17sv357rex3378 , _:node17sv357rex3379 , _:node17sv357rex3380 , _:node17sv357rex3377 , _:node17sv357rex3376 , atxa-core:docRoot .
+

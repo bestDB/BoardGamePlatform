@@ -1,0 +1,47 @@
+<,d00d171@gmail.com,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slManagable.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex4633 .
+
+_:node17sv357rex4633 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> ;
+	atxa-core:posX "611" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Managable> .
+
+_:node17sv357rex4633 atxa-core:contains _:node17sv357rex4634 .
+
+_:node17sv357rex4634 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Managable> ;
+	atxa-core:posX "617" ;
+	atxa-core:posY "318" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Managable> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Managable.start()> .
+
+_:node17sv357rex4634 atxa-core:contains _:node17sv357rex4635 .
+
+_:node17sv357rex4635 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.network$Managable.start()> ;
+	atxa-core:posX "618" ;
+	atxa-core:posY "336" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slnetwork_slManagable.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex4635 , _:node17sv357rex4634 , _:node17sv357rex4633 , atxa-core:docRoot , _:node17sv357rex4635 , _:node17sv357rex4634 , _:node17sv357rex4633 , atxa-core:docRoot .
+

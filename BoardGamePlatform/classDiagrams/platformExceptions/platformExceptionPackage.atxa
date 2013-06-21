@@ -1,0 +1,143 @@
+<,d00d171@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slplatformExceptions_slplatformExceptionPackage.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sv357rex4056 .
+
+_:node17sv357rex4056 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions> ;
+	atxa-core:posX "48" ;
+	atxa-core:posY "42" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$RoomMakingException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotItemFoundException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotPawnFoundException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotFieldFoundException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotPlayerExistsException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotAvalaibleMoveException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerNotRespondException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotAttributeFoundException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerNotHasPawnsException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotSupportedContextException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UnsupportedBoardSizeException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$FieldNotHasNeihgboursException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerWithGivenNickAlreadyExistsException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UninitializedTurnHandlerException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UninitializedInitialStateException> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UnsupportedMoveNumberException> .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4057 .
+
+_:node17sv357rex4057 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$RoomMakingException> ;
+	atxa-core:posX "423" ;
+	atxa-core:posY "165" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4058 .
+
+_:node17sv357rex4058 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotItemFoundException> ;
+	atxa-core:posX "54" ;
+	atxa-core:posY "165" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4059 .
+
+_:node17sv357rex4059 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotPawnFoundException> ;
+	atxa-core:posX "54" ;
+	atxa-core:posY "214" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4060 .
+
+_:node17sv357rex4060 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotFieldFoundException> ;
+	atxa-core:posX "239" ;
+	atxa-core:posY "165" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4061 .
+
+_:node17sv357rex4061 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotPlayerExistsException> ;
+	atxa-core:posX "54" ;
+	atxa-core:posY "67" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4062 .
+
+_:node17sv357rex4062 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotAvalaibleMoveException> ;
+	atxa-core:posX "449" ;
+	atxa-core:posY "67" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4063 .
+
+_:node17sv357rex4063 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerNotRespondException> ;
+	atxa-core:posX "243" ;
+	atxa-core:posY "67" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4064 .
+
+_:node17sv357rex4064 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotAttributeFoundException> ;
+	atxa-core:posX "54" ;
+	atxa-core:posY "116" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4065 .
+
+_:node17sv357rex4065 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerNotHasPawnsException> ;
+	atxa-core:posX "655" ;
+	atxa-core:posY "67" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4066 .
+
+_:node17sv357rex4066 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$NotSupportedContextException> ;
+	atxa-core:posX "264" ;
+	atxa-core:posY "116" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4067 .
+
+_:node17sv357rex4067 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UnsupportedBoardSizeException> ;
+	atxa-core:posX "492" ;
+	atxa-core:posY "116" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4068 .
+
+_:node17sv357rex4068 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$FieldNotHasNeihgboursException> ;
+	atxa-core:posX "600" ;
+	atxa-core:posY "165" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4069 .
+
+_:node17sv357rex4069 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$PlayerWithGivenNickAlreadyExistsException> ;
+	atxa-core:posX "250" ;
+	atxa-core:posY "215" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4070 .
+
+_:node17sv357rex4070 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UninitializedTurnHandlerException> ;
+	atxa-core:posX "69" ;
+	atxa-core:posY "266" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4071 .
+
+_:node17sv357rex4071 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UninitializedInitialStateException> ;
+	atxa-core:posX "320" ;
+	atxa-core:posY "270" .
+
+_:node17sv357rex4056 atxa-core:contains _:node17sv357rex4072 .
+
+_:node17sv357rex4072 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.platformExceptions$UnsupportedMoveNumberException> ;
+	atxa-core:posX "556" ;
+	atxa-core:posY "216" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#classDiagrams_slplatformExceptions_slplatformExceptionPackage.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sv357rex4057 , _:node17sv357rex4058 , _:node17sv357rex4059 , _:node17sv357rex4060 , _:node17sv357rex4061 , _:node17sv357rex4062 , _:node17sv357rex4063 , _:node17sv357rex4064 , _:node17sv357rex4065 , _:node17sv357rex4066 , _:node17sv357rex4067 , _:node17sv357rex4068 , _:node17sv357rex4069 , _:node17sv357rex4070 , _:node17sv357rex4071 , _:node17sv357rex4072 , _:node17sv357rex4056 , atxa-core:docRoot , _:node17sv357rex4057 , _:node17sv357rex4058 , _:node17sv357rex4059 , _:node17sv357rex4060 , _:node17sv357rex4061 , _:node17sv357rex4062 , _:node17sv357rex4063 , _:node17sv357rex4064 , _:node17sv357rex4065 , _:node17sv357rex4066 , _:node17sv357rex4067 , _:node17sv357rex4068 , _:node17sv357rex4069 , _:node17sv357rex4070 , _:node17sv357rex4071 , _:node17sv357rex4072 , _:node17sv357rex4056 , atxa-core:docRoot .
+

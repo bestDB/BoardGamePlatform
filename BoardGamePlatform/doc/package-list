@@ -1,0 +1,11 @@
+
+boardGamePlatform.game
+boardGamePlatform.gameInitializers
+boardGamePlatform.gameResources
+boardGamePlatform.network
+boardGamePlatform.platformExceptions
+boardGamePlatform.tests
+boardGamePlatform.utilities
+monopolyConsolePrototype.states
+monopolyConsolePrototype.test
+monopolyConsolePrototype.test.simpleClientServer

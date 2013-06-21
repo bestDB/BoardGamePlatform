@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics
+    xmlns="http://eclipse-metrics.sourceforge.net"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://eclipse-metrics.sourceforge.net metrics.xsd"
+    >
+  <configuration metric="CC" fullname="Cyclomatic Complexity">
+    <option name="countCaseStatements" value="true"/>
+    <option name="countCatchClauses" value="true"/>
+    <option name="countTernaryOperators" value="true"/>
+  </configuration>
+  <configuration metric="WMC" fullname="Weighted Methods Per Class">
+    <option name="countCaseStatements" value="true"/>
+    <option name="countCatchClauses" value="true"/>
+    <option name="countTernaryOperators" value="true"/>
+  </configuration>
+  <configuration metric="FE" fullname="Feature Envy">
+    <option name="envySourceTypesOnly" value="true"/>
+    <option name="envySuperclass" value="true"/>
+  </configuration>
+  <configuration metric="LCOMCK" fullname="Lack of Cohesion in Methods (Chidamber &amp; Kemerer)">
+  </configuration>
+  <configuration metric="LCOMHS" fullname="Lack of Cohesion in Methods (Henderson-Sellers)">
+  </configuration>
+  <configuration metric="LCOMPFI" fullname="Lack of Cohesion in Methods (Pairwise Field Irrelation)">
+  </configuration>
+  <configuration metric="LCOMTC" fullname="Lack of Cohesion in Methods (Total Correlation)">
+  </configuration>
+  <configuration metric="LOCm" fullname="Lines of Code in Method">
+    <option name="ignoreBlanks" value="false"/>
+    <option name="includeComments" value="true"/>
+  </configuration>
+  <configuration metric="NOP" fullname="Number of Parameters">
+    <option name="includeSupertypeMethods" value="true"/>
+  </configuration>
+  <configuration metric="Ce" fullname="Efferent Couplings">
+  </configuration>
+  <configuration metric="NOF" fullname="Number of Fields">
+  </configuration>
+  <configuration metric="NOL" fullname="Number of Levels">
+  </configuration>
+  <configuration metric="NLS" fullname="Number of Locals in Scope">
+  </configuration>
+  <configuration metric="NOS" fullname="Number of Statements">
+  </configuration>
+  <package name="">
+    <type name="AllTests" line="29" WMC="0" NOF="0" Ce="13">
+    </type>
+  </package>
+  <package name="boardGamePlatform.game">
+    <type name="Context" line="22" NOP="5" NOF="5" LOCm="16" NOS="5" NOL="1" NLS="0" CC="1" LCOMTC="122" LCOMCK="15" LCOMPFI="100" FE="0" LCOMHS="93" WMC="9" Ce="8">
+      <method name="Context" line="39" LOCm="15" NLS="0" FE="0" CC="1" NOS="5" NOP="4" NOL="1"/>
+      <method name="Context" line="55" NOP="5" NLS="0" NOS="5" NOL="1" CC="1" FE="0" LOCm="16"/>
+      <method name="addAttribute" line="81" FE="0" CC="1" NOL="1" NOP="2" NLS="0" NOS="1" LOCm="9"/>
+      <method name="getAllPlayers" line="118" NOL="1" NLS="0" CC="1" NOS="1" FE="0" NOP="0" LOCm="3"/>
+      <method name="getAttribute" line="91" FE="0" LOCm="9" NOL="1" NLS="0" CC="1" NOS="2" NOP="1"/>
+      <method name="getBoard" line="114" NOL="1" NOP="0" LOCm="3" CC="1" FE="0" NOS="1" NLS="0"/>
+      <method name="getCurrPlayer" line="110" NOP="0" NOS="1" CC="1" FE="0" LOCm="3" NOL="1" NLS="0"/>
+      <method name="getName" line="72" NOP="0" NOS="1" LOCm="8" FE="0" NLS="0" CC="1" NOL="1"/>
+      <method name="setAttributes" line="101" NOP="1" NOL="1" LOCm="8" NOS="1" FE="0" NLS="0" CC="1"/>
+    </type>
+    <type name="Game" line="19" Ce="9" NLS="0" NOP="1" LCOMHS="0" NOS="16" LCOMTC="0" CC="4" WMC="6" NOL="4" NOF="2" FE="4" LCOMCK="0" LCOMPFI="0" LOCm="18">
+      <method name="Game" line="27" NOP="1" LOCm="8" NLS="0" CC="1" NOL="1" NOS="1" FE="0"/>
+      <method name="getTurnLogic" line="55" LOCm="8" NLS="0" NOS="1" NOL="1" CC="1" FE="0" NOP="0"/>
+      <method name="start" line="36" NOP="0" NOL="4" NOS="16" FE="4" NLS="0" CC="4" LOCm="18"/>
+    </type>
+    <type name="Player" line="31" Ce="18" CC="3" FE="0" LOCm="14" NOF="6" LCOMHS="75" LCOMPFI="81" NOP="3" NOL="2" NLS="1" NOS="15" LCOMCK="48" WMC="36" LCOMTC="191">
+      <method name="Player" line="51" NOL="1" LOCm="13" NOP="1" FE="0" NOS="6" NLS="0" CC="1"/>
+      <method name="Player" line="80" NLS="0" CC="1" NOP="3" NOS="4" FE="0" NOL="1" LOCm="13"/>
+      <method name="Player" line="65" CC="1" NOP="2" NOS="6" LOCm="14" FE="0" NLS="0" NOL="1"/>
+      <method name="addPawn" line="247" CC="1" NLS="0" NOL="1" NOP="1" LOCm="8" FE="0" NOS="1"/>
+      <method name="getCurrentTurnHandler" line="112" NOS="3" LOCm="10" NOL="2" CC="2" NOP="0" NLS="0" FE="0"/>
+      <method name="getItem" line="216" NOL="2" NLS="0" CC="2" LOCm="12" FE="0" NOS="5" NOP="1"/>
+      <method name="getNick" line="274" NLS="0" FE="0" NOL="2" LOCm="10" NOP="0" CC="2" NOS="3"/>
+      <method name="getOtherTurnHandler" line="123" NLS="0" LOCm="10" NOS="3" NOL="2" FE="0" NOP="0" CC="2"/>
+      <method name="getPlayerFirstPawn" line="172" CC="2" NOP="0" NOS="5" LOCm="11" FE="0" NOL="2" NLS="0"/>
+      <method name="getPlayerID" line="256" LOCm="8" NOS="1" NOL="1" NOP="0" NLS="0" CC="1" FE="0"/>
+      <method name="getPlayerItems" line="163" NLS="0" NOL="1" CC="1" NOP="0" NOS="1" LOCm="8" FE="0"/>
+      <method name="getPlayerLastPawn" line="184" NOL="2" NOP="0" CC="2" LOCm="12" NOS="6" FE="0" NLS="0"/>
+      <method name="getPlayerPawns" line="154" NLS="0" FE="0" NOL="1" CC="1" NOP="0" LOCm="8" NOS="1"/>
+      <method name="makeCurrentTurn" line="134" FE="0" NLS="1" NOL="2" LOCm="9" CC="3" NOP="1" NOS="7"/>
+      <method name="makeOtherTurn" line="144" NOS="7" FE="0" NLS="1" LOCm="9" NOL="2" CC="3" NOP="1"/>
+      <method name="removeItem" line="207" NOP="1" NLS="0" NOL="1" LOCm="8" NOS="1" FE="0" CC="1"/>
+      <method name="setCurrentTurnHandler" line="94" NOL="1" LOCm="8" FE="0" NOS="1" NLS="0" CC="1" NOP="1"/>
+      <method name="setItem" line="197" NOL="1" CC="1" FE="0" NLS="0" NOP="2" LOCm="9" NOS="1"/>
+      <method name="setNick" line="285" CC="1" LOCm="8" NOL="1" NOP="1" NLS="0" NOS="1" FE="0"/>
+      <method name="setOtherTurnHandler" line="103" NLS="0" NOS="1" NOL="1" LOCm="8" CC="1" NOP="1" FE="0"/>
+      <method name="setPlayerID" line="265" FE="0" LOCm="8" NOS="1" NOP="1" NLS="0" CC="1" NOL="1"/>
+      <method name="setPlayerItems" line="238" CC="1" NOS="1" NOP="1" LOCm="8" NOL="1" FE="0" NLS="0"/>
+      <method name="setPlayerPawns" line="229" NOL="1" LOCm="8" NOP="1" CC="1" FE="0" NOS="1" NLS="0"/>
+      <method name="toString" line="294" NLS="0" NOP="0" LOCm="14" FE="0" CC="3" NOS="15" NOL="2"/>
+    </type>
+    <type name="State" line="16" Ce="11" WMC="4" LCOMTC="100" LCOMCK="1" NLS="0" LCOMPFI="100" CC="1" FE="0" NOF="5" NOP="5" LCOMHS="100" NOS="5" LOCm="16" NOL="1">
+      <method name="State" line="33" NOS="4" FE="0" NLS="0" NOL="1" LOCm="14" CC="1" NOP="4"/>
+      <method name="State" line="48" NOS="5" CC="1" FE="0" NOP="5" NLS="0" LOCm="16" NOL="1"/>
+      <method name="gameEnded" line="98" NOP="0" NLS="0"/>
+      <method name="getAllPlayers" line="74" NOL="1" CC="1" LOCm="8" NOS="1" NOP="0" FE="0" NLS="0"/>
+      <method name="getContext" line="83" NOP="0" NLS="0"/>
+      <method name="getCurrentPlayer" line="65" NOS="1" NOL="1" NOP="0" CC="1" NLS="0" FE="0" LOCm="8"/>
+      <method name="makeTurn" line="90" NLS="0" NOP="2"/>
+    </type>
+    <type name="StateChangable" line="10" NOP="1">
+      <method name="changeState" line="12" NOP="1"/>
+    </type>
+    <type name="TurnHandler" line="19" Ce="10" WMC="6" NOF="3" NOS="11" NOL="3" LCOMCK="0" NOP="2" LCOMPFI="36" NLS="0" LCOMHS="33" FE="0" LCOMTC="31" CC="3" LOCm="10">
+      <method name="TurnHandler" line="27" NOS="3" NOL="1" LOCm="8" FE="0" NOP="0" CC="1" NLS="0"/>
+      <method name="TurnHandler" line="36" NOP="1" CC="1" NOS="3" FE="0" NLS="0" NOL="1" LOCm="5"/>
+      <method name="makeTurn" line="52" FE="0" NOP="1" LOCm="10" NOL="3" NOS="11" CC="3" NLS="0"/>
+      <method name="setTurnMaker" line="45" FE="0" NLS="0" CC="1" NOP="2" LOCm="3" NOS="1" NOL="1"/>
+    </type>
+    <type name="TurnLogic" line="16" NOF="1" NOS="4" LCOMCK="0" WMC="13" FE="0" LCOMTC="0" Ce="10" NOL="2" LCOMPFI="0" LCOMHS="0" NLS="0" NOP="2" CC="2" LOCm="11">
+      <method name="TurnLogic" line="21" NOP="0" CC="1" NOL="1" LOCm="6" NLS="0" FE="0" NOS="1"/>
+      <method name="changeState" line="40" NLS="0" NOP="1" FE="0" NOL="1" LOCm="4" CC="1" NOS="1"/>
+      <method name="gameEnded" line="90" NOS="4" FE="0" LOCm="10" CC="2" NOL="2" NLS="0" NOP="0"/>
+      <method name="getAllPlayers" line="67" CC="2" NOL="2" NOS="4" LOCm="10" NOP="0" FE="0" NLS="0"/>
+      <method name="getContext" line="45" NOS="4" CC="2" LOCm="10" NOP="0" NOL="2" NLS="0" FE="0"/>
+      <method name="getCurrentPlayer" line="56" NOS="4" NLS="0" NOP="0" LOCm="10" FE="0" NOL="2" CC="2"/>
+      <method name="makeTurn" line="78" NLS="0" NOP="2" CC="2" FE="0" LOCm="11" NOL="2" NOS="3"/>
+      <method name="setStartState" line="28" LOCm="8" NOL="1" NOS="1" NLS="0" NOP="1" CC="1" FE="0"/>
+    </type>
+    <type name="TurnMakeable" line="17" NOP="1">
+      <method name="makeTurn" line="19" NOP="1"/>
+    </type>
+    <type name="TurnResult" line="16" LCOMTC="0" NLS="0" FE="0" LCOMHS="0" LOCm="12" NOL="2" Ce="6" LCOMPFI="0" WMC="7" LCOMCK="0" NOP="2" NOF="1" NOS="5" CC="2">
+      <method name="TurnResult" line="21" FE="0" NLS="0" NOP="0" LOCm="6" CC="1" NOL="1" NOS="1"/>
+      <method name="TurnResult" line="28" NOL="1" CC="1" NLS="0" NOP="2" FE="0" LOCm="10" NOS="2"/>
+      <method name="TurnResult" line="39" NLS="0" CC="1" NOS="1" FE="0" NOL="1" LOCm="8" NOP="1"/>
+      <method name="getProperty" line="57" FE="0" NLS="0" LOCm="12" CC="2" NOL="2" NOP="1" NOS="5"/>
+      <method name="setProperties" line="48" NOS="1" NOL="1" NLS="0" FE="0" LOCm="8" NOP="1" CC="1"/>
+      <method name="setProperty" line="70" CC="1" LOCm="9" FE="0" NLS="0" NOP="2" NOL="1" NOS="1"/>
+    </type>
+  </package>
+  <package name="boardGamePlatform.gameInitializers">
+    <type name="BoardInitializer" line="16" NOP="3">
+      <method name="initializeBoard" line="18" NOP="3"/>
+    </type>
+    <type name="GameDetails" line="10" NOP="1">
+      <method name="getGameName" line="20" NOP="0"/>
+      <method name="ifPlayersCountPossible" line="12" NOP="1"/>
+    </type>
+    <type name="GameFactory" line="18" NOP="3">
+      <method name="createBoardInitializer" line="34" NOP="0"/>
+      <method name="createCurrentTurnHandler" line="48" NOP="0"/>
+      <method name="createGameDetails" line="62" NOP="0"/>
+      <method name="createInitialState" line="69" NOP="3"/>
+      <method name="createItemsInitializer" line="20" NOP="0"/>
+      <method name="createOtherTurnHandler" line="55" NOP="0"/>
+      <method name="createPawnsInitializer" line="27" NOP="0"/>
+      <method name="createPlayersInitializer" line="41" NOP="0"/>
+    </type>
+    <type name="Initializer" line="28" NLS="0" NOL="4" LOCm="22" LCOMPFI="56" NOS="16" WMC="18" LCOMHS="91" LCOMTC="402" CC="4" Ce="23" NOP="3" NOF="10" LCOMCK="10" FE="3">
+      <method name="Initializer" line="60" NOL="1" NOP="1" NLS="0" CC="1" FE="0" NOS="11" LOCm="14"/>
+      <method name="addNewActivePlayer" line="98" CC="4" NOP="3" NLS="0" NOS="11" LOCm="20" NOL="4" FE="3"/>
+      <method name="getBoard" line="170" FE="0" NOS="1" NLS="0" LOCm="10" NOL="1" NOP="0" CC="1"/>
+      <method name="getGame" line="149" FE="0" LOCm="8" CC="1" NOS="1" NOP="0" NOL="1" NLS="0"/>
+      <method name="getInitialState" line="158" NOL="1" NOS="2" CC="1" LOCm="11" NLS="0" NOP="3" FE="0"/>
+      <method name="getPlayers" line="181" CC="1" LOCm="10" NOP="0" NOS="1" NLS="0" FE="0" NOL="1"/>
+      <method name="getTurnLogic" line="192" LOCm="10" NOL="1" NLS="0" NOS="1" NOP="0" FE="0" CC="1"/>
+      <method name="ifAllPlayersReady" line="135" LOCm="13" FE="0" NOS="5" CC="3" NOP="0" NLS="0" NOL="3"/>
+      <method name="initialize" line="75" NOL="2" LOCm="22" NLS="0" FE="0" NOS="16" NOP="1" CC="2"/>
+      <method name="removeActivePlayer" line="119" NLS="0" CC="3" FE="3" NOL="3" NOP="1" LOCm="15" NOS="7"/>
+    </type>
+    <type name="ItemsInitializer" line="14" NOP="1">
+      <method name="initializeItems" line="16" NOP="1"/>
+    </type>
+    <type name="PawnsInitializer" line="15" NOP="2">
+      <method name="initializePawns" line="17" NOP="2"/>
+    </type>
+    <type name="PlayersInitializer" line="17" NOP="3">
+      <method name="initializePlayers" line="19" NOP="3"/>
+    </type>
+  </package>
+  <package name="boardGamePlatform.gameResources">
+    <type name="Board" line="14" FE="0" CC="2" NOP="1" LCOMHS="0" NOS="7" LOCm="9" NOF="1" Ce="6" NLS="0" LCOMPFI="0" WMC="6" LCOMCK="0" LCOMTC="0" NOL="2">
+      <method name="Board" line="19" FE="0" NOP="0" NOS="1" CC="1" NLS="0" NOL="1" LOCm="6"/>
+      <method name="Board" line="26" NOL="1" LOCm="8" FE="0" NOP="1" NLS="0" CC="1" NOS="1"/>
+      <method name="getFields" line="35" NLS="0" CC="1" NOP="0" LOCm="8" NOS="1" FE="0" NOL="1"/>
+      <method name="setFields" line="44" FE="0" NOP="1" CC="1" NLS="0" LOCm="8" NOL="1" NOS="1"/>
+      <method name="toString" line="53" NOS="7" NOL="2" LOCm="9" FE="0" CC="2" NLS="0" NOP="0"/>
+    </type>
+    <type name="Field" line="21" LOCm="24" CC="4" Ce="18" LCOMTC="137" NLS="0" LCOMPFI="90" NOS="23" NOP="4" FE="0" WMC="44" LCOMCK="90" NOL="2" NOF="6" LCOMHS="80">
+      <method name="Field" line="41" NOP="1" NOS="6" NOL="1" LOCm="13" FE="0" NLS="0" CC="1"/>
+      <method name="Field" line="55" NLS="0" NOS="6" LOCm="14" NOL="1" FE="0" CC="1" NOP="2"/>
+      <method name="Field" line="70" NOP="3" FE="0" LOCm="17" NOL="2" NOS="7" NLS="0" CC="2"/>
+      <method name="Field" line="88" CC="3" NLS="0" LOCm="24" FE="0" NOP="4" NOL="2" NOS="10"/>
+      <method name="addAttribute" line="340" NOP="2" NOL="1" NOS="1" LOCm="9" CC="1" NLS="0" FE="0"/>
+      <method name="addItem" line="223" NOP="2" CC="1" NOL="1" LOCm="9" NOS="1" FE="0" NLS="0"/>
+      <method name="addNeighbourField" line="178" NLS="0" NOP="1" NOL="1" CC="1" FE="0" LOCm="8" NOS="1"/>
+      <method name="addPawn" line="123" NOL="1" LOCm="8" NOP="1" NOS="1" FE="0" CC="1" NLS="0"/>
+      <method name="clearFieldItems" line="350" FE="0" NOP="0" NOL="1" CC="1" NOS="1" LOCm="6" NLS="0"/>
+      <method name="containPawn" line="141" LOCm="9" NOL="1" FE="0" NOP="1" NOS="2" NLS="0" CC="1"/>
+      <method name="getAttribute" line="327" FE="0" CC="2" NOS="5" NOP="1" NOL="2" LOCm="12" NLS="0"/>
+      <method name="getAttributes" line="309" CC="1" NOP="0" FE="0" LOCm="8" NOS="1" NOL="1" NLS="0"/>
+      <method name="getFieldsPawns" line="151" CC="1" LOCm="8" NOP="0" NLS="0" NOL="1" NOS="1" FE="0"/>
+      <method name="getFirstNeighbour" line="197" NOP="0" NLS="0" NOS="5" FE="0" NOL="2" LOCm="12" CC="2"/>
+      <method name="getFirstPawn" line="269" FE="0" LOCm="10" NOS="5" NLS="0" NOL="2" CC="2" NOP="0"/>
+      <method name="getGraphicsID" line="260" NLS="0" LOCm="8" FE="0" NOS="1" NOL="1" CC="1" NOP="0"/>
+      <method name="getID" line="242" NLS="0" NOL="1" CC="1" LOCm="8" FE="0" NOP="0" NOS="1"/>
+      <method name="getItem" line="357" LOCm="12" NOS="5" NOL="2" FE="0" NLS="0" NOP="1" CC="2"/>
+      <method name="getItems" line="291" NOL="1" NLS="0" NOS="1" NOP="0" FE="0" LOCm="8" CC="1"/>
+      <method name="getLastNeighbour" line="210" NOS="6" CC="2" NOL="2" FE="0" NLS="0" NOP="0" LOCm="12"/>
+      <method name="getLastPawn" line="280" FE="0" NOS="6" NOP="0" CC="2" NLS="0" NOL="2" LOCm="10"/>
+      <method name="getNeighbourFields" line="160" LOCm="8" NOP="0" FE="0" NOS="1" NLS="0" CC="1" NOL="1"/>
+      <method name="removeItem" line="233" NOL="1" LOCm="8" NLS="0" NOP="1" FE="0" NOS="1" CC="1"/>
+      <method name="removeNeighbourField" line="187" NLS="0" CC="1" NOS="2" NOL="1" NOP="1" FE="0" LOCm="9"/>
+      <method name="removePawn" line="113" NOS="2" LOCm="9" NOL="1" NLS="0" NOP="1" FE="0" CC="1"/>
+      <method name="setAttribute" line="370" NOP="2" NLS="0" LOCm="9" FE="0" NOS="1" NOL="1" CC="1"/>
+      <method name="setAttributes" line="318" NLS="0" LOCm="8" CC="1" NOL="1" NOS="1" NOP="1" FE="0"/>
+      <method name="setGraphicsID" line="251" NOS="1" NOL="1" NOP="1" NLS="0" CC="1" LOCm="8" FE="0"/>
+      <method name="setItems" line="300" NOS="1" NOL="1" CC="1" NOP="1" NLS="0" LOCm="8" FE="0"/>
+      <method name="setNeighbourFields" line="169" NOS="1" LOCm="8" CC="1" NLS="0" NOP="1" NOL="1" FE="0"/>
+      <method name="setPawns" line="132" NOS="1" NLS="0" NOL="1" FE="0" NOP="1" CC="1" LOCm="8"/>
+      <method name="toString" line="380" FE="0" NOL="2" NLS="0" LOCm="21" NOP="1" NOS="23" CC="4"/>
+    </type>
+    <type name="Item" line="17" NOF="4" LCOMCK="0" LOCm="13" LCOMHS="78" LCOMTC="98" NOP="4" LCOMPFI="91" NOS="12" WMC="18" NOL="2" FE="0" Ce="8" NLS="0" CC="2">
+      <method name="Item" line="31" NOS="4" NOL="1" NLS="0" LOCm="11" NOP="1" FE="0" CC="1"/>
+      <method name="Item" line="55" NLS="0" FE="0" CC="1" NOP="3" NOL="1" LOCm="13" NOS="4"/>
+      <method name="Item" line="69" NOL="1" CC="1" LOCm="12" NLS="0" FE="0" NOS="2" NOP="4"/>
+      <method name="Item" line="43" NOL="1" FE="0" NOS="2" NOP="3" NLS="0" LOCm="11" CC="1"/>
+      <method name="containsAttribute" line="93" CC="1" NOS="2" LOCm="9" NOP="1" NLS="0" FE="0" NOL="1"/>
+      <method name="getAttribute" line="103" CC="2" NOS="5" NOL="2" NOP="1" LOCm="12" FE="0" NLS="0"/>
+      <method name="getAttributes" line="125" LOCm="8" NLS="0" FE="0" NOL="1" NOS="1" NOP="0" CC="1"/>
+      <method name="getGraphicsID" line="152" NOS="1" NOL="1" LOCm="8" FE="0" CC="1" NLS="0" NOP="0"/>
+      <method name="getID" line="134" FE="0" CC="1" NOS="1" LOCm="8" NOL="1" NLS="0" NOP="0"/>
+      <method name="getName" line="170" NOL="1" CC="1" NOS="1" LOCm="8" FE="0" NLS="0" NOP="0"/>
+      <method name="setAttribute" line="82" NLS="0" NOL="1" NOS="2" LOCm="10" FE="0" NOP="2" CC="1"/>
+      <method name="setAttributes" line="116" NOL="1" FE="0" CC="1" NOP="1" LOCm="8" NOS="1" NLS="0"/>
+      <method name="setGraphicsID" line="161" LOCm="8" FE="0" NOP="1" NLS="0" NOS="1" NOL="1" CC="1"/>
+      <method name="setItemID" line="143" NOP="1" FE="0" LOCm="8" CC="1" NLS="0" NOS="1" NOL="1"/>
+      <method name="setName" line="179" NOS="1" NLS="0" FE="0" NOL="1" NOP="1" LOCm="8" CC="1"/>
+      <method name="toString" line="188" NLS="0" LOCm="12" NOP="1" FE="0" CC="2" NOS="12" NOL="2"/>
+    </type>
+    <type name="Pawn" line="15" Ce="7" LOCm="12" NOS="13" LCOMCK="0" CC="2" NOF="3" LCOMPFI="95" WMC="13" NOL="2" LCOMTC="62" LCOMHS="71" FE="0" NOP="3" NLS="0">
+      <method name="Pawn" line="26" FE="0" NOL="1" NOS="3" NOP="1" CC="1" NLS="0" LOCm="10"/>
+      <method name="Pawn" line="37" FE="0" NOL="1" LOCm="11" CC="1" NLS="0" NOP="2" NOS="3"/>
+      <method name="Pawn" line="49" NLS="0" NOP="3" NOL="1" CC="1" LOCm="12" NOS="3" FE="0"/>
+      <method name="addItem" line="62" NOL="1" NOS="1" NLS="0" FE="0" CC="1" NOP="2" LOCm="9"/>
+      <method name="getID" line="108" LOCm="8" NLS="0" NOP="0" FE="0" CC="1" NOL="1" NOS="1"/>
+      <method name="getItems" line="90" LOCm="8" NOP="0" NOL="1" CC="1" FE="0" NLS="0" NOS="1"/>
+      <method name="getPawnID" line="117" NOL="1" CC="1" FE="0" NOS="1" NOP="0" NLS="0" LOCm="8"/>
+      <method name="removeItem" line="72" CC="1" LOCm="8" NOL="1" NLS="0" NOS="1" NOP="1" FE="0"/>
+      <method name="setGraphicsID" line="99" LOCm="8" NLS="0" CC="1" NOS="1" NOL="1" NOP="1" FE="0"/>
+      <method name="setItems" line="81" LOCm="8" NOP="1" NOL="1" FE="0" NOS="1" NLS="0" CC="1"/>
+      <method name="setPawnID" line="126" NOL="1" NLS="0" NOP="1" LOCm="8" NOS="1" CC="1" FE="0"/>
+      <method name="toString" line="135" NLS="0" CC="2" LOCm="12" NOS="13" NOL="2" NOP="1" FE="0"/>
+    </type>
+  </package>
+  <package name="boardGamePlatform.graphics">
+    <type name="Drawable" line="10" NLS="2" LOCm="17" NOS="15" LCOMCK="1" CC="2" NOP="2" WMC="6" NOF="2" LCOMTC="92" NOL="2" Ce="5" LCOMPFI="100" FE="0" LCOMHS="75">
+      <method name="Drawable" line="18" NLS="1" CC="2" NOL="2" FE="0" LOCm="17" NOS="15" NOP="2"/>
+      <method name="draw" line="72" NLS="0" NOP="0"/>
+      <method name="getGID" line="54" LOCm="8" CC="1" NLS="0" FE="0" NOS="1" NOP="0" NOL="1"/>
+      <method name="getGID" line="36" NOL="2" NOS="15" NLS="2" LOCm="17" CC="2" NOP="1"/>
+      <method name="getRepresentation" line="63" NOL="1" NLS="0" FE="0" LOCm="8" CC="1" NOS="1" NOP="0"/>
+    </type>
+    <type name="Graphics" line="13" NOS="7" LCOMPFI="0" FE="1" LCOMHS="0" NLS="0" WMC="5" NOL="2" CC="2" NOP="1" LCOMCK="0" LCOMTC="0" LOCm="12" Ce="5" NOF="1">
+      <method name="Graphics" line="18" LOCm="6" CC="1" FE="0" NOP="0" NOS="1" NOL="1" NLS="0"/>
+      <method name="addDrawable" line="34" LOCm="8" NOS="2" FE="0" CC="1" NLS="0" NOL="1" NOP="1"/>
+      <method name="draw" line="25" NOS="3" NLS="0" NOL="1" CC="1" LOCm="8" NOP="1" FE="1"/>
+      <method name="getDrawable" line="43" NOL="2" CC="2" FE="0" NOP="1" NLS="0" LOCm="12" NOS="7"/>
+    </type>
+    <type name="GraphicsTest" line="31" CC="1" NOL="1" WMC="3" LOCm="13" NOF="0" NLS="0" Ce="7" NOS="13" FE="3" NOP="0">
+      <method name="test" line="33" FE="3" NOL="1" CC="1" NLS="0" NOS="13" NOP="0" LOCm="13"/>
+      <method name="testExceptionAdding" line="47" NOS="2" NLS="0" CC="1" NOP="0" FE="1" LOCm="8" NOL="1"/>
+      <method name="testExceptionGettingGID" line="56" NOP="0" NOS="2" FE="1" NOL="1" LOCm="8" NLS="0" CC="1"/>
+    </type>
+    <type name="ItemDrawer" line="15" FE="1" WMC="2" Ce="2" NOS="1" NLS="0" NOP="2" CC="1" NOL="1" NOF="0" LOCm="4">
+      <method name="ItemDrawer" line="17" NOL="1" NOP="2" CC="1" FE="0" NLS="0" NOS="1" LOCm="4"/>
+      <method name="draw" line="22" FE="1" LOCm="4" CC="1" NOP="0" NOL="1" NOS="1" NLS="0"/>
+    </type>
+    <type name="UndrawableObjectType" line="9" NOF="0" WMC="0" Ce="1">
+    </type>
+  </package>
+  <package name="boardGamePlatform.network">
+    <type name="Accessible" line="16" NOP="4">
+      <method name="isJoinable" line="38" NOP="0"/>
+      <method name="join" line="18" NOP="4"/>
+      <method name="leave" line="30" NOP="1"/>
+    </type>
+    <type name="Client" line="18" WMC="3" NOL="1" LCOMPFI="50" Ce="10" LCOMHS="50" NOS="5" NOF="4" LOCm="15" LCOMCK="0" NOP="2" LCOMTC="0" FE="0" NLS="0" CC="1">
+      <method name="Client" line="32" NOL="1" CC="1" NOP="2" LOCm="15" NOS="5" FE="0" NLS="0"/>
+      <method name="joinFirstAvailableRoom" line="54" NOS="2" NOL="1" NLS="0" NOP="2" LOCm="11" FE="0" CC="1"/>
+      <method name="signalGameHasEnded" line="51" NOL="1" CC="1" FE="0" NLS="0" LOCm="2" NOS="0" NOP="0"/>
+    </type>
+    <type name="GameHasEndedCallback" line="13" NOP="0">
+      <method name="signalGameHasEnded" line="15" NOP="0"/>
+    </type>
+    <type name="Managable" line="13" NOP="0">
+      <method name="start" line="15" NOP="0"/>
+    </type>
+    <type name="RemoteTurnHandlable" line="9" NOP="1">
+      <method name="makeTurn" line="10" NOP="1"/>
+    </type>
+    <type name="RemoteTurnHandler" line="9" LCOMCK="0" CC="1" LCOMHS="0" NOL="1" NLS="0" NOS="2" LOCm="5" LCOMPFI="0" NOF="1" Ce="6" WMC="2" FE="0" NOP="1" LCOMTC="0">
+      <method name="RemoteTurnHandler" line="13" NOS="1" NLS="0" CC="1" NOP="1" LOCm="3" NOL="1" FE="0"/>
+      <method name="makeTurn" line="17" NLS="0" NOP="1" CC="1" FE="0" LOCm="5" NOS="2" NOL="1"/>
+    </type>
+    <type name="Room" line="18" Ce="12" NOF="1" LOCm="15" NOP="6" LCOMTC="0" NLS="1" WMC="9" LCOMPFI="0" FE="1" LCOMCK="0" CC="3" NOL="3" LCOMHS="0" NOS="9">
+      <method name="Room" line="24" NOL="1" NOS="3" LOCm="6" NOP="6" NLS="0" FE="0" CC="1"/>
+      <method name="isJoinable" line="62" NLS="0" NOL="1" NOP="0" FE="0" LOCm="5" CC="1" NOS="2"/>
+      <method name="join" line="34" CC="3" LOCm="15" NOS="8" NOP="4" NLS="1" FE="0" NOL="3"/>
+      <method name="leave" line="53" NOL="1" LOCm="5" NOP="1" NOS="1" NLS="0" CC="1" FE="0"/>
+      <method name="start" line="71" CC="3" NLS="1" FE="1" NOP="0" LOCm="15" NOL="3" NOS="9"/>
+    </type>
+    <type name="Rooms" line="21" NOF="2" NOP="6" Ce="15" LCOMCK="0" WMC="6" CC="3" LOCm="14" FE="1" LCOMTC="0" LCOMPFI="67" NOL="3" NOS="10" LCOMHS="50" NLS="3">
+      <method name="Rooms" line="30" FE="0" NOP="1" NOL="1" NOS="2" LOCm="10" CC="1" NLS="0"/>
+      <method name="joinFirstAvailableRoom" line="62" NLS="0" NOL="3" NOP="4" FE="1" NOS="10" LOCm="9" CC="3"/>
+      <method name="makeRoom" line="44" CC="2" NLS="3" FE="0" LOCm="14" NOS="8" NOP="6" NOL="2"/>
+    </type>
+    <type name="RoomsManager" line="16" NOP="6">
+      <method name="joinFirstAvailableRoom" line="23" NOP="4"/>
+      <method name="makeRoom" line="18" NOP="6"/>
+    </type>
+  </package>
+  <package name="boardGamePlatform.platformExceptions">
+    <type name="FieldNotHasNeihgboursException" line="9" WMC="0" NOF="0" Ce="1">
+    </type>
+    <type name="NotAttributeFoundException" line="9" WMC="0" Ce="1" NOF="0">
+    </type>
+    <type name="NotAvalaibleMoveException" line="9" NOF="0" Ce="1" WMC="0">
+    </type>
+    <type name="NotFieldFoundException" line="9" Ce="1" NOF="0" WMC="0">
+    </type>
+    <type name="NotItemFoundException" line="9" Ce="1" WMC="0" NOF="0">
+    </type>
+    <type name="NotPawnFoundException" line="9" NOF="0" Ce="1" WMC="0">
+    </type>
+    <type name="NotPlayerExistsException" line="9" NOF="0" Ce="1" WMC="0">
+    </type>
+    <type name="NotSupportedContextException" line="10" NOF="0" CC="1" FE="0" NOL="1" LOCm="6" NOS="0" NLS="0" NOP="1" WMC="2" Ce="2">
+      <method name="NotSupportedContextException" line="12" CC="1" FE="0" NOP="0" NOS="0" NOL="1" NLS="0" LOCm="4"/>
+      <method name="NotSupportedContextException" line="17" NOL="1" NOP="1" LOCm="6" CC="1" NLS="0" FE="0" NOS="0"/>
+    </type>
+    <type name="PlayerNotHasPawnsException" line="9" WMC="0" NOF="0" Ce="1">
+    </type>
+    <type name="PlayerNotRespondException" line="3" NOF="0" Ce="1" WMC="0">
+    </type>
+    <type name="PlayerWithGivenNickAlreadyExistsException" line="9" NOF="0" WMC="0" Ce="1">
+    </type>
+    <type name="RoomMakingException" line="9" Ce="1" WMC="0" NOF="0">
+    </type>
+    <type name="UninitializedInitialStateException" line="9" Ce="1" WMC="0" NOF="0">
+    </type>
+    <type name="UninitializedTurnHandlerException" line="9" Ce="1" NOF="0" WMC="0">
+    </type>
+    <type name="UnsupportedBoardSizeException" line="9" NOF="0" WMC="0" Ce="1">
+    </type>
+    <type name="UnsupportedMoveNumberException" line="9" NOF="0" Ce="1" WMC="0">
+    </type>
+  </package>
+  <package name="boardGamePlatform.tests">
+    <type name="AllTests" line="16" Ce="11" WMC="0" NOF="0">
+    </type>
+    <type name="BoardBuilderTest" line="26" CC="1" NLS="0" LOCm="19" NOF="0" NOP="0" Ce="8" NOL="1" FE="1" WMC="4" NOS="22">
+      <method name="testMakeSimpleTestBoardOneField" line="42" NOS="10" NOP="0" CC="1" NOL="1" LOCm="16" NLS="0" FE="1"/>
+      <method name="testMakeSimpleTestBoardThreeFields" line="76" CC="1" LOCm="19" NLS="0" NOS="22" FE="1" NOP="0" NOL="1"/>
+      <method name="testMakeSimpleTestBoardTwoFields" line="59" NOS="15" NOP="0" FE="1" CC="1" NOL="1" LOCm="16" NLS="0"/>
+      <method name="testMakeSimpleTestBoardZeroFields" line="28" NLS="0" NOS="5" NOP="0" FE="1" LOCm="13" CC="1" NOL="1"/>
+    </type>
+    <type name="BoardHelperTest" line="29" FE="3" CC="1" WMC="14" NOP="0" NOF="0" Ce="13" LOCm="26" NOS="16" NLS="0" NOL="1">
+      <method name="testBoardHelper" line="31" NOL="1" NOS="4" NLS="0" FE="1" CC="1" NOP="0" LOCm="10"/>
+      <method name="testGetFieldById" line="136" CC="1" FE="1" NOS="8" NOP="0" NLS="0" NOL="1" LOCm="15"/>
+      <method name="testGetNotExistingFieldById" line="152" CC="1" NOP="0" NOL="1" NLS="0" LOCm="14" FE="1" NOS="5"/>
+      <method name="testMovePawn" line="78" FE="3" NLS="0" LOCm="21" CC="1" NOS="15" NOL="1" NOP="0"/>
+      <method name="testMovePawnByNum" line="167" NOP="0" NLS="0" LOCm="24" CC="1" NOL="1" NOS="14" FE="2"/>
+      <method name="testMovePawnByNumCrossingStart" line="192" NOP="0" FE="2" LOCm="24" NLS="0" NOS="14" CC="1" NOL="1"/>
+      <method name="testMovePawnByNumNumLessThanZero" line="240" FE="2" NLS="0" NOL="1" NOS="8" LOCm="22" CC="1" NOP="0"/>
+      <method name="testMovePawnByNumNumPawnDoesntExist" line="263" NOS="6" NOL="1" NLS="0" CC="1" LOCm="21" NOP="0" FE="1"/>
+      <method name="testMovePawnByNumPawnNull" line="217" FE="2" NLS="0" NOL="1" LOCm="22" NOS="8" NOP="0" CC="1"/>
+      <method name="testMovePawnByPlayer" line="286" LOCm="26" FE="2" NOL="1" NLS="0" NOS="16" CC="1" NOP="0"/>
+      <method name="testMovePawnNotPawnFoundOtherPawnExists" line="100" NOP="0" NOL="1" FE="3" CC="1" LOCm="18" NLS="0" NOS="9"/>
+      <method name="testMovePawnNotPawnFoundOtherPawnNotExists" line="119" NLS="0" NOP="0" CC="1" FE="2" NOL="1" NOS="7" LOCm="16"/>
+      <method name="testPlacePawn" line="42" CC="1" NLS="0" NOL="1" NOS="9" FE="2" LOCm="18" NOP="0"/>
+      <method name="testPlacePawnOnField" line="61" FE="1" NOS="6" LOCm="16" NOL="1" CC="1" NLS="0" NOP="0"/>
+    </type>
+    <type name="BoardTest" line="21" NOF="0" FE="2" NOP="0" NOL="1" WMC="3" NOS="5" Ce="5" LOCm="10" CC="1" NLS="0">
+      <method name="testBoard" line="44" CC="1" NOP="0" FE="1" NOL="1" LOCm="9" NLS="0" NOS="4"/>
+      <method name="testSetBoard" line="23" NOP="0" FE="1" NLS="0" NOS="4" LOCm="9" CC="1" NOL="1"/>
+      <method name="testSetFields" line="33" NLS="0" NOS="5" CC="1" LOCm="10" NOL="1" FE="2" NOP="0"/>
+    </type>
+    <type name="FieldTest" line="25" CC="1" NOP="0" Ce="12" FE="9" WMC="2" NOF="0" LOCm="49" NOL="1" NOS="64" NLS="0">
+      <method name="testFieldConstructors" line="27" NOS="64" CC="1" NOL="1" FE="9" NOP="0" NLS="0" LOCm="49"/>
+      <method name="testGettingSettingNeighbours" line="77" LOCm="23" FE="3" NOS="17" NOL="1" NOP="0" CC="1" NLS="0"/>
+    </type>
+    <type name="GameEnd" line="95" WMC="4" NLS="0" FE="3" NOF="0" NOL="1" CC="1" NOP="4" Ce="9" LOCm="5" NOS="1">
+      <method name="GameEnd" line="97" LOCm="5" NOP="4" NOL="1" NOS="1" FE="0" CC="1" NLS="0"/>
+      <method name="gameEnded" line="114" NOS="1" NLS="0" LOCm="5" NOP="0" NOL="1" FE="0" CC="1"/>
+      <method name="getContext" line="103" FE="3" NLS="0" CC="1" NOL="1" NOP="0" LOCm="4" NOS="1"/>
+      <method name="makeTurn" line="108" NOP="2" FE="0" NOS="0" CC="1" NLS="0" LOCm="5" NOL="1"/>
+    </type>
+    <type name="GameTest" line="125" FE="3" NOL="2" NOS="29" CC="5" WMC="6" NOF="0" NLS="0" Ce="22" LOCm="74" NOP="0">
+      <method name="testConstructor" line="127" NLS="0" FE="1" NOL="1" NOS="4" CC="1" LOCm="9" NOP="0"/>
+      <method name="testStartGame_OneState" line="168" NOL="2" NOS="29" CC="5" NOP="0" NLS="0" FE="3" LOCm="74"/>
+      <method name="testStartGame_OneStateException" line="137" LOCm="30" NOP="0" FE="1" NOS="16" CC="2" NOL="2" NLS="0"/>
+    </type>
+    <type name="GameTest$(anonymous)" line="206" WMC="1" NOL="1" NOF="0" CC="1" NOS="3" FE="1" NLS="0" NOP="1" Ce="4">
+      <method name="makeTurn" line="208" NOL="1" NOP="1" NLS="0" CC="1" NOS="3" FE="1"/>
+    </type>
+    <type name="GameTest$(anonymous)" line="217" NOS="1" NOF="0" NLS="0" CC="1" WMC="1" NOL="1" Ce="4" NOP="1" FE="0">
+      <method name="makeTurn" line="219" NLS="0" FE="0" NOP="1" CC="1" NOL="1" NOS="1"/>
+    </type>
+    <type name="ItemTest" line="19" NLS="0" NOP="0" NOL="1" LOCm="25" CC="1" FE="10" WMC="1" NOF="0" NOS="27" Ce="5">
+      <method name="testConstructorsAndGetSet" line="21" NLS="0" NOL="1" NOP="0" CC="1" NOS="27" LOCm="25" FE="10"/>
+    </type>
+    <type name="PawnTest" line="20" NLS="0" NOP="0" WMC="1" LOCm="35" FE="7" NOF="0" NOS="38" Ce="6" CC="1" NOL="1">
+      <method name="testConstructorsAndSetGet" line="22" NOS="38" FE="7" NOP="0" NOL="1" CC="1" LOCm="35" NLS="0"/>
+    </type>
+    <type name="PlayerMove" line="56" NLS="0" NOP="4" Ce="9" CC="1" NOF="0" FE="3" NOL="1" WMC="4" NOS="1" LOCm="5">
+      <method name="PlayerMove" line="58" LOCm="5" NOP="4" NLS="0" FE="0" CC="1" NOS="1" NOL="1"/>
+      <method name="gameEnded" line="75" LOCm="5" NOL="1" NOS="1" NOP="0" NLS="0" FE="0" CC="1"/>
+      <method name="getContext" line="64" NOL="1" LOCm="4" FE="3" NOP="0" NLS="0" CC="1" NOS="1"/>
+      <method name="makeTurn" line="69" FE="0" NOP="2" NOL="1" NOS="0" NLS="0" CC="1" LOCm="5"/>
+    </type>
+    <type name="StartGameState" line="30" WMC="4" LOCm="6" Ce="10" CC="1" NOL="1" NOS="3" FE="4" NOP="4" NLS="0" NOF="0">
+      <method name="StartGameState" line="32" NOS="1" LOCm="4" FE="0" CC="1" NLS="0" NOP="4" NOL="1"/>
+      <method name="gameEnded" line="49" LOCm="5" NOL="1" FE="0" NOS="1" NOP="0" CC="1" NLS="0"/>
+      <method name="getContext" line="37" LOCm="4" NOS="1" FE="3" CC="1" NLS="0" NOP="0" NOL="1"/>
+      <method name="makeTurn" line="42" NOS="3" NOP="2" LOCm="6" FE="4" NLS="0" CC="1" NOL="1"/>
+    </type>
+    <type name="StartState" line="44" NOP="4" WMC="10" Ce="18" LOCm="31" NOL="2" NOS="23" CC="7" FE="4" NLS="3" NOF="0">
+      <method name="StartState" line="46" NOP="4" FE="0" NOL="1" NLS="0" LOCm="4" NOS="1" CC="1"/>
+      <method name="gameEnded" line="88" NOL="1" NOP="0" CC="1" NOS="1" LOCm="5" NLS="0" FE="0"/>
+      <method name="getContext" line="51" NOS="1" NOL="1" NLS="0" LOCm="4" FE="3" NOP="0" CC="1"/>
+      <method name="makeTurn" line="56" FE="4" NOL="2" LOCm="31" NOP="2" NOS="23" NLS="3" CC="7"/>
+    </type>
+    <type name="StateHelperTest" line="22" NOF="0" NOL="2" NLS="0" CC="2" FE="1" NOS="20" LOCm="24" Ce="4" NOP="0" WMC="2">
+      <method name="testGetNextPlayer" line="24" CC="2" FE="1" NOP="0" NOS="20" NLS="0" LOCm="24" NOL="2"/>
+    </type>
+    <type name="TurnLogicTest" line="87" NLS="0" NOL="2" FE="4" WMC="4" NOF="0" LOCm="36" NOS="27" CC="2" Ce="12" NOP="0">
+      <method name="test" line="89" FE="4" CC="2" NOP="0" NOL="2" LOCm="36" NOS="27" NLS="0"/>
+      <method name="testException" line="126" NOS="26" NOL="2" CC="2" LOCm="36" NLS="0" FE="3" NOP="0"/>
+    </type>
+  </package>
+  <package name="boardGamePlatform.utilities">
+    <type name="BoardBuilder" line="19" WMC="5" LCOMCK="0" NOS="12" LCOMHS="0" NOL="2" CC="4" Ce="7" LOCm="22" FE="0" LCOMPFI="0" LCOMTC="0" NOF="1" NOP="1" NLS="0">
+      <method name="BoardBuilder" line="24" NLS="0" NOP="1" LOCm="8" NOL="1" NOS="1" CC="1" FE="0"/>
+      <method name="makeSimpleLinearBoard" line="33" NLS="0" CC="4" NOP="1" NOS="12" FE="0" LOCm="22" NOL="2"/>
+    </type>
+    <type name="BoardHelper" line="21" NOP="3" NOL="3" LCOMTC="0" CC="8" LCOMHS="0" NOS="24" WMC="24" LCOMPFI="0" LOCm="45" Ce="13" NLS="0" FE="3" NOF="1" LCOMCK="0">
+      <method name="BoardHelper" line="26" LOCm="8" CC="1" NOL="1" NOP="1" FE="0" NOS="1" NLS="0"/>
+      <method name="clearFieldsWithGivenAttribute" line="163" NLS="0" FE="1" NOL="3" CC="3" NOP="2" LOCm="12" NOS="6"/>
+      <method name="getBoard" line="140" NOP="0" NLS="0" LOCm="8" FE="0" NOS="1" CC="1" NOL="1"/>
+      <method name="getFieldById" line="115" FE="0" NOS="6" NLS="0" NOL="3" LOCm="13" CC="3" NOP="1"/>
+      <method name="getPawnsField" line="149" NOS="6" CC="3" LOCm="13" FE="0" NOL="3" NLS="0" NOP="1"/>
+      <method name="getPlayersFirstPawnField" line="176" NOL="1" NOP="1" FE="0" NLS="0" LOCm="11" NOS="3" CC="1"/>
+      <method name="movePawn" line="35" LOCm="14" NOP="3" FE="2" NOL="2" NOS="4" CC="2" NLS="0"/>
+      <method name="movePawn" line="50" CC="8" FE="3" NOL="3" NLS="0" NOS="24" LOCm="45" NOP="2"/>
+      <method name="movePlayerFirstPawnByNum" line="96" FE="0" NLS="0" LOCm="18" NOS="4" CC="1" NOP="2" NOL="1"/>
+      <method name="placePawnOnField" line="129" NLS="0" FE="0" CC="1" NOL="1" NOP="2" NOS="2" LOCm="10"/>
+    </type>
+    <type name="StateHelper" line="16" LOCm="15" NOP="2" NOL="3" NLS="0" NOS="5" CC="3" WMC="4" Ce="5" NOF="0">
+      <method name="getNextPlayer" line="18" LOCm="10" NOP="2" NOS="4" CC="1" NOL="1" NLS="0"/>
+      <method name="getPlayerByID" line="29" NOP="2" NOS="5" LOCm="15" NLS="0" NOL="3" CC="3"/>
+    </type>
+  </package>
+  <package name="monopolyConsolePrototype.states">
+    <type name="AtEnemyField" line="26" Ce="18" FE="4" NOF="0" CC="4" NOL="3" WMC="7" NLS="5" LOCm="28" NOP="4" NOS="26">
+      <method name="AtEnemyField" line="28" FE="0" NOS="1" LOCm="13" NLS="0" CC="1" NOP="4" NOL="1"/>
+      <method name="gameEnded" line="85" FE="0" NOL="1" CC="1" NLS="0" LOCm="5" NOP="0" NOS="1"/>
+      <method name="getContext" line="45" NOP="0" NOL="1" CC="1" NOS="1" NLS="0" LOCm="4" FE="3"/>
+      <method name="makeTurn" line="53" NOS="26" NLS="5" LOCm="28" CC="4" FE="4" NOL="3" NOP="2"/>
+    </type>
+    <type name="AtNobodysField" line="26" WMC="6" NOP="4" NOL="3" LOCm="25" NLS="4" Ce="17" CC="3" NOF="0" FE="4" NOS="22">
+      <method name="AtNobodysField" line="28" FE="0" NOL="1" CC="1" NOS="1" LOCm="13" NOP="4" NLS="0"/>
+      <method name="gameEnded" line="82" NOP="0" CC="1" NOS="1" LOCm="5" NLS="0" NOL="1" FE="0"/>
+      <method name="getContext" line="45" LOCm="4" NOS="1" NOL="1" NOP="0" NLS="0" FE="3" CC="1"/>
+      <method name="makeTurn" line="53" NLS="4" NOS="22" NOP="2" CC="3" FE="4" NOL="3" LOCm="25"/>
+    </type>
+    <type name="AtOwnerField" line="26" NOP="4" NOS="22" NOF="0" NLS="4" WMC="6" NOL="3" Ce="17" LOCm="23" FE="4" CC="3">
+      <method name="AtOwnerField" line="28" NOP="4" NLS="0" FE="0" LOCm="13" CC="1" NOS="1" NOL="1"/>
+      <method name="gameEnded" line="80" NOL="1" FE="0" LOCm="5" NLS="0" CC="1" NOP="0" NOS="1"/>
+      <method name="getContext" line="45" FE="3" NOL="1" CC="1" NOP="0" NOS="1" NLS="0" LOCm="4"/>
+      <method name="makeTurn" line="53" NOS="22" NOP="2" FE="4" CC="3" NLS="4" NOL="3" LOCm="23"/>
+    </type>
+    <type name="BuyingItem" line="22" WMC="5" LOCm="15" CC="2" NLS="0" FE="5" NOF="0" NOP="5" Ce="14" NOL="2" NOS="10">
+      <method name="BuyingItem" line="25" NOS="1" NOL="1" CC="1" LOCm="15" NOP="5" FE="0" NLS="0"/>
+      <method name="gameEnded" line="71" LOCm="5" NOS="1" NLS="0" NOL="1" CC="1" FE="0" NOP="0"/>
+      <method name="getContext" line="44" NLS="0" NOS="1" CC="1" NOP="0" FE="3" LOCm="4" NOL="1"/>
+      <method name="makeTurn" line="52" LOCm="15" NOL="2" NLS="0" CC="2" FE="5" NOS="10" NOP="2"/>
+    </type>
+    <type name="ChanceField" line="22" FE="4" NOL="1" NOS="4" Ce="13" NOP="4" NOF="0" WMC="4" LOCm="13" NLS="0" CC="1">
+      <method name="ChanceField" line="24" NOS="1" FE="0" CC="1" NLS="0" LOCm="13" NOL="1" NOP="4"/>
+      <method name="gameEnded" line="63" NOP="0" NOS="1" FE="0" LOCm="5" NLS="0" CC="1" NOL="1"/>
+      <method name="getContext" line="41" LOCm="4" NLS="0" NOS="1" NOP="0" NOL="1" FE="3" CC="1"/>
+      <method name="makeTurn" line="49" CC="1" LOCm="10" NOS="4" NOL="1" NOP="2" FE="4" NLS="0"/>
+    </type>
+    <type name="CrossingStartField" line="25" NOL="3" NOF="0" LOCm="41" NLS="4" NOS="41" CC="8" FE="4" NOP="4" WMC="11" Ce="21">
+      <method name="CrossingStartField" line="28" FE="0" NOP="4" CC="1" NOS="1" NLS="0" LOCm="13" NOL="1"/>
+      <method name="gameEnded" line="98" NLS="0" NOL="1" NOS="1" FE="0" CC="1" LOCm="5" NOP="0"/>
+      <method name="getContext" line="45" NOP="0" NLS="0" FE="3" CC="1" NOL="1" NOS="1" LOCm="4"/>
+      <method name="makeTurn" line="53" NLS="4" NOS="41" LOCm="41" FE="4" NOP="2" NOL="3" CC="8"/>
+    </type>
+    <type name="ExecuteChance" line="21" NOP="5" NOF="0" Ce="13" FE="4" NOS="18" NLS="0" WMC="4" NOL="1" CC="1" LOCm="15">
+      <method name="ExecuteChance" line="23" CC="1" NLS="0" NOP="5" FE="0" NOS="1" NOL="1" LOCm="15"/>
+      <method name="gameEnded" line="69" FE="0" NLS="0" LOCm="5" NOL="1" CC="1" NOS="1" NOP="0"/>
+      <method name="getContext" line="42" NLS="0" FE="3" NOP="0" CC="1" LOCm="4" NOS="1" NOL="1"/>
+      <method name="makeTurn" line="50" NOP="2" LOCm="15" NOS="18" FE="4" CC="1" NOL="1" NLS="0"/>
+    </type>
+    <type name="GameEnded" line="20" LOCm="13" NLS="0" NOP="4" NOL="1" NOS="1" CC="1" NOF="0" Ce="9" WMC="4" FE="3">
+      <method name="GameEnded" line="22" LOCm="13" NLS="0" NOS="1" FE="0" NOP="4" CC="1" NOL="1"/>
+      <method name="gameEnded" line="56" NOL="1" NOP="0" LOCm="5" FE="0" NOS="1" NLS="0" CC="1"/>
+      <method name="getContext" line="39" CC="1" NLS="0" FE="3" NOS="1" LOCm="4" NOP="0" NOL="1"/>
+      <method name="makeTurn" line="47" FE="0" LOCm="5" NLS="0" NOP="2" NOL="1" NOS="1" CC="1"/>
+    </type>
+    <type name="PlayerBankrupt" line="23" NOS="8" CC="2" NOP="4" Ce="11" LOCm="13" WMC="5" NOL="2" FE="4" NOF="0" NLS="0">
+      <method name="PlayerBankrupt" line="25" FE="0" CC="1" NLS="0" NOL="1" LOCm="13" NOP="4" NOS="1"/>
+      <method name="gameEnded" line="67" NLS="0" NOP="0" NOL="1" CC="1" LOCm="5" NOS="1" FE="0"/>
+      <method name="getContext" line="42" CC="1" NOL="1" FE="3" NOP="0" NOS="1" NLS="0" LOCm="4"/>
+      <method name="makeTurn" line="50" FE="4" NOP="2" NOS="8" NOL="2" NLS="0" CC="2" LOCm="13"/>
+    </type>
+    <type name="PlayerBought" line="25" FE="5" NOP="5" NLS="7" CC="3" Ce="16" NOL="3" NOF="0" WMC="6" LOCm="34" NOS="39">
+      <method name="PlayerBought" line="27" NOP="5" CC="1" NLS="0" LOCm="15" NOL="1" FE="0" NOS="1"/>
+      <method name="gameEnded" line="92" NOP="0" NOL="1" NLS="0" LOCm="5" FE="0" NOS="1" CC="1"/>
+      <method name="getContext" line="46" CC="1" NOL="1" NOS="1" NLS="0" NOP="0" LOCm="4" FE="3"/>
+      <method name="makeTurn" line="54" NOP="2" NOS="39" FE="5" CC="3" NLS="7" NOL="3" LOCm="34"/>
+    </type>
+    <type name="PlayerMove" line="27" NOL="4" LOCm="46" NOP="4" CC="9" NOF="0" WMC="12" FE="4" Ce="21" NLS="6" NOS="43">
+      <method name="PlayerMove" line="29" NOL="1" NLS="0" NOS="1" FE="0" LOCm="13" NOP="4" CC="1"/>
+      <method name="gameEnded" line="105" NOS="1" NOL="1" FE="0" NLS="0" LOCm="4" CC="1" NOP="0"/>
+      <method name="getContext" line="46" FE="3" NOS="1" CC="1" NOP="0" LOCm="5" NOL="1" NLS="0"/>
+      <method name="makeTurn" line="55" NOL="4" LOCm="46" NLS="6" FE="4" CC="9" NOS="43" NOP="2"/>
+    </type>
+    <type name="PlayerPays" line="26" LOCm="26" WMC="5" NLS="8" CC="2" NOS="33" NOF="0" FE="5" Ce="16" NOL="2" NOP="5">
+      <method name="PlayerPays" line="29" LOCm="15" CC="1" NOP="5" NOL="1" NOS="1" FE="0" NLS="0"/>
+      <method name="gameEnded" line="86" NOP="0" NOL="1" NLS="0" LOCm="5" NOS="1" CC="1" FE="0"/>
+      <method name="getContext" line="48" FE="3" LOCm="4" NOS="1" NLS="0" NOL="1" CC="1" NOP="0"/>
+      <method name="makeTurn" line="56" NLS="8" FE="5" NOP="2" LOCm="26" CC="2" NOL="2" NOS="33"/>
+    </type>
+    <type name="Policeman" line="25" Ce="12" NOS="11" LOCm="14" NOL="2" NOP="4" NOF="0" CC="2" FE="4" WMC="5" NLS="2">
+      <method name="Policeman" line="27" NOP="4" CC="1" FE="0" NLS="0" LOCm="13" NOS="1" NOL="1"/>
+      <method name="gameEnded" line="70" CC="1" NOP="0" LOCm="5" NLS="0" NOS="1" NOL="1" FE="0"/>
+      <method name="getContext" line="44" NOS="1" FE="3" NLS="0" NOP="0" CC="1" NOL="1" LOCm="4"/>
+      <method name="makeTurn" line="52" CC="2" FE="4" NOL="2" NLS="2" NOS="11" NOP="2" LOCm="14"/>
+    </type>
+    <type name="Prison" line="21" NLS="0" CC="1" NOS="3" NOF="0" WMC="4" NOL="1" Ce="10" FE="4" NOP="4" LOCm="13">
+      <method name="Prison" line="23" NOL="1" LOCm="13" CC="1" NOS="1" NOP="4" FE="0" NLS="0"/>
+      <method name="gameEnded" line="59" NOS="1" LOCm="5" CC="1" FE="0" NLS="0" NOL="1" NOP="0"/>
+      <method name="getContext" line="40" NOS="1" NOP="0" NLS="0" NOL="1" CC="1" FE="3" LOCm="4"/>
+      <method name="makeTurn" line="48" LOCm="7" CC="1" NOS="3" NOP="2" FE="4" NOL="1" NLS="0"/>
+    </type>
+    <type name="StartField" line="21" WMC="4" LOCm="13" NOL="1" NOS="3" NOF="0" NLS="0" Ce="10" FE="4" NOP="4" CC="1">
+      <method name="StartField" line="23" CC="1" LOCm="13" NOP="4" NLS="0" NOL="1" NOS="1" FE="0"/>
+      <method name="gameEnded" line="59" NOP="0" NOS="1" FE="0" CC="1" NLS="0" NOL="1" LOCm="5"/>
+      <method name="getContext" line="40" CC="1" NOL="1" FE="3" NOS="1" NLS="0" NOP="0" LOCm="4"/>
+      <method name="makeTurn" line="48" NLS="0" NOS="3" FE="4" CC="1" NOL="1" LOCm="7" NOP="2"/>
+    </type>
+    <type name="StartGame" line="20" Ce="10" NOL="1" CC="1" FE="4" NOP="4" NLS="0" WMC="4" NOF="0" NOS="1" LOCm="13">
+      <method name="StartGame" line="22" CC="1" NOS="1" NOL="1" NOP="4" FE="0" LOCm="13" NLS="0"/>
+      <method name="gameEnded" line="58" CC="1" LOCm="4" NLS="0" FE="0" NOP="0" NOS="1" NOL="1"/>
+      <method name="getContext" line="39" NLS="0" NOS="1" NOL="1" LOCm="5" CC="1" NOP="0" FE="3"/>
+      <method name="makeTurn" line="48" NLS="0" LOCm="6" FE="4" NOL="1" CC="1" NOP="2" NOS="1"/>
+    </type>
+  </package>
+  <package name="monopolyConsolePrototype.test">
+    <type name="AllTests" line="15" WMC="0" Ce="4" NOF="0">
+    </type>
+    <type name="BeginningFirstPlay" line="104" LOCm="118" LCOMTC="0" NOF="4" LCOMHS="0" NLS="0" LCOMPFI="0" NOP="0" NOL="3" FE="5" LCOMCK="0" NOS="143" CC="8" Ce="32" WMC="13">
+      <method name="setUp" line="118" FE="0" NOL="2" LOCm="50" NLS="0" NOS="28" NOP="0" CC="2"/>
+      <method name="testBuyingFieldBankrupt" line="169" FE="1" NOL="1" NLS="0" NOP="0" LOCm="44" CC="1" NOS="59"/>
+      <method name="testBuyingFieldFee" line="214" NOS="62" NOP="0" FE="0" NOL="1" CC="1" LOCm="46" NLS="0"/>
+      <method name="testSimpleScenario" line="376" NOP="0" FE="5" NLS="0" CC="8" NOL="3" LOCm="118" NOS="102"/>
+      <method name="testSpecialFields" line="261" NOL="1" FE="0" NOS="143" CC="1" NLS="0" LOCm="114" NOP="0"/>
+    </type>
+    <type name="BoardInitializerImpl" line="31" Ce="12" NOP="3" WMC="2" FE="1" NOL="2" CC="2" NLS="4" NOS="15" NOF="0" LOCm="20">
+      <method name="initializeBoard" line="33" LOCm="20" NOL="2" NOP="3" CC="2" NLS="4" FE="1" NOS="15"/>
+    </type>
+    <type name="CurrentAtNobodysFieldTurnHandler" line="81" LOCm="5" WMC="1" NOS="1" NOL="1" NOP="1" Ce="4" NOF="0" FE="0" CC="1" NLS="0">
+      <method name="makeTurn" line="83" NLS="0" NOP="1" CC="1" FE="0" NOS="1" LOCm="5" NOL="1"/>
+    </type>
+    <type name="CurrentMakeMoveTurnHandler" line="63" LOCm="5" WMC="1" Ce="4" NOF="0" CC="1" NOP="1" NOL="1" FE="1" NLS="0" NOS="3">
+      <method name="makeTurn" line="64" NOL="1" FE="1" NLS="0" LOCm="5" CC="1" NOS="3" NOP="1"/>
+    </type>
+    <type name="CurrentStartGameTurnHandler" line="46" NOL="1" LOCm="4" NOF="0" NLS="0" NOS="1" NOP="1" Ce="4" FE="0" CC="1" WMC="1">
+      <method name="makeTurn" line="48" NLS="0" NOS="1" LOCm="4" NOP="1" CC="1" NOL="1" FE="0"/>
+    </type>
+    <type name="InitializationTest" line="181" NOF="0" NOP="0" CC="2" NLS="2" WMC="2" Ce="11" NOS="50" NOL="2" LOCm="45" FE="6">
+      <method name="test" line="183" CC="2" NOP="0" FE="6" LOCm="45" NLS="2" NOS="50" NOL="2"/>
+    </type>
+    <type name="ItemsInitializerImpl" line="71" CC="1" NOL="1" NOS="1" NLS="0" NOF="0" NOP="1" LOCm="5" Ce="6" WMC="1" FE="0">
+      <method name="initializeItems" line="73" NOS="1" NLS="0" FE="0" NOP="1" LOCm="5" CC="1" NOL="1"/>
+    </type>
+    <type name="MonopolyDetails" line="109" NLS="0" FE="0" NOP="1" NOL="2" WMC="3" NOS="3" Ce="5" NOF="0" CC="2" LOCm="6">
+      <method name="getGameName" line="118" LOCm="4" NOP="0" CC="1" NLS="0" NOL="1" FE="0" NOS="1"/>
+      <method name="ifPlayersCountPossible" line="111" LOCm="6" NOP="1" NLS="0" NOL="2" NOS="3" CC="2" FE="0"/>
+    </type>
+    <type name="MonopolyGameFactory" line="125" WMC="8" NOF="0" NOP="3" NOL="1" FE="0" LOCm="6" NLS="0" CC="1" NOS="2" Ce="19">
+      <method name="createBoardInitializer" line="139" CC="1" FE="0" NLS="0" NOP="0" NOS="1" NOL="1" LOCm="5"/>
+      <method name="createCurrentTurnHandler" line="151" CC="1" LOCm="5" NOS="1" NOP="0" NLS="0" NOL="1" FE="0"/>
+      <method name="createGameDetails" line="163" LOCm="5" NOS="1" NOL="1" NLS="0" NOP="0" CC="1" FE="0"/>
+      <method name="createInitialState" line="169" CC="1" NOP="3" NOS="2" LOCm="6" NOL="1" FE="0" NLS="0"/>
+      <method name="createItemsInitializer" line="127" FE="0" LOCm="5" NLS="0" NOP="0" NOS="1" CC="1" NOL="1"/>
+      <method name="createOtherTurnHandler" line="157" NLS="0" NOS="1" CC="1" LOCm="5" NOL="1" FE="0" NOP="0"/>
+      <method name="createPawnsInitializer" line="133" LOCm="5" NLS="0" FE="0" NOS="1" NOL="1" CC="1" NOP="0"/>
+      <method name="createPlayersInitializer" line="145" NLS="0" NOS="1" CC="1" NOL="1" FE="0" NOP="0" LOCm="5"/>
+    </type>
+    <type name="OtherAtNobodysFieldTurnHandler" line="91" NOS="1" FE="0" Ce="4" NOL="1" LOCm="5" NLS="0" NOP="1" NOF="0" WMC="1" CC="1">
+      <method name="makeTurn" line="93" NOP="1" NLS="0" LOCm="5" FE="0" CC="1" NOS="1" NOL="1"/>
+    </type>
+    <type name="OtherMakeMoveTurnHandler" line="71" NOL="1" NLS="0" NOF="0" LOCm="5" WMC="1" NOS="1" FE="0" Ce="4" NOP="1" CC="1">
+      <method name="makeTurn" line="73" NOP="1" FE="0" LOCm="5" NOL="1" CC="1" NLS="0" NOS="1"/>
+    </type>
+    <type name="OtherStartGameTurnHandler" line="55" NOP="1" NOF="0" NLS="0" Ce="4" NOL="1" LOCm="3" FE="0" WMC="1" CC="1" NOS="1">
+      <method name="makeTurn" line="57" LOCm="3" NOS="1" NLS="0" CC="1" NOP="1" NOL="1" FE="0"/>
+    </type>
+    <type name="PawnsInitializerImpl" line="56" NOS="4" NOF="0" NOP="2" LOCm="10" CC="1" Ce="9" WMC="1" NLS="0" FE="0" NOL="1">
+      <method name="initializePawns" line="58" NLS="0" NOP="2" LOCm="10" NOS="4" CC="1" NOL="1" FE="0"/>
+    </type>
+    <type name="PlayersInitializerImpl" line="81" NOF="0" Ce="11" FE="2" NOP="3" NOS="13" NLS="0" WMC="2" NOL="2" LOCm="23" CC="2">
+      <method name="initializePlayers" line="83" LOCm="23" NOL="2" CC="2" NOS="13" NOP="3" NLS="0" FE="2"/>
+    </type>
+  </package>
+  <package name="monopolyConsolePrototype.test.simpleClientServer">
+    <type name="BoardInitializerImpl1" line="32" FE="2" NOS="23" NOP="3" CC="5" NLS="4" Ce="14" NOL="2" WMC="5" NOF="0" LOCm="38">
+      <method name="initializeBoard" line="34" LOCm="38" NLS="4" FE="2" NOP="3" NOS="23" NOL="2" CC="5"/>
+    </type>
+    <type name="ClientAdmin" line="20" WMC="7" NOL="4" NOF="0" NLS="11" NOP="1" FE="2" LOCm="47" NOS="33" Ce="15" CC="7">
+      <method name="main" line="68" NLS="0" NOL="1" NOS="2" CC="1" LOCm="4" NOP="1"/>
+      <method name="setUp" line="21" FE="2" NLS="11" NOS="33" NOP="0" CC="7" NOL="4" LOCm="47"/>
+    </type>
+    <type name="ClientAdmin$(anonymous)" line="32" WMC="1" NOL="1" FE="0" NLS="0" Ce="3" NOS="0" NOF="0" NOP="0" CC="1">
+      <method name="signalGameHasEnded" line="34" NOL="1" FE="0" CC="1" NLS="0" NOS="0" NOP="0"/>
+    </type>
+    <type name="ClientPlayer" line="22" WMC="6" CC="6" NOS="25" NLS="10" Ce="13" LOCm="39" NOF="0" NOL="3" FE="2" NOP="1">
+      <method name="main" line="63" NOP="1" NOL="1" CC="1" NOS="2" NLS="0" LOCm="4"/>
+      <method name="setUp" line="23" NOP="0" NOS="25" LOCm="39" CC="6" NOL="3" NLS="10" FE="2"/>
+    </type>
+    <type name="ClientPlayer$(anonymous)" line="34" FE="0" NLS="0" NOS="0" Ce="3" WMC="1" NOF="0" NOP="0" CC="1" NOL="1">
+      <method name="signalGameHasEnded" line="36" NOP="0" FE="0" NOL="1" NLS="0" NOS="0" CC="1"/>
+    </type>
+    <type name="ItemsInitializerImpl1" line="90" NOF="0" FE="0" NOL="1" LOCm="5" Ce="6" WMC="1" CC="1" NLS="0" NOS="1" NOP="1">
+      <method name="initializeItems" line="92" NOS="1" LOCm="5" NOL="1" NOP="1" CC="1" FE="0" NLS="0"/>
+    </type>
+    <type name="MonopolyDetails1" line="130" CC="2" NOP="1" LOCm="6" NOF="0" NOL="2" NOS="3" Ce="5" NLS="0" FE="0" WMC="3">
+      <method name="getGameName" line="139" FE="0" NLS="0" NOL="1" NOP="0" LOCm="4" CC="1" NOS="1"/>
+      <method name="ifPlayersCountPossible" line="132" CC="2" NOL="2" NOS="3" NOP="1" FE="0" NLS="0" LOCm="6"/>
+    </type>
+    <type name="MonopolyGameFactory1" line="146" NOS="64" FE="4" NOP="3" Ce="22" NLS="0" NOF="0" CC="9" NOL="6" LOCm="53" WMC="8">
+      <method name="createBoardInitializer" line="160" NOL="1" LOCm="5" CC="1" FE="0" NLS="0" NOS="1" NOP="0"/>
+      <method name="createCurrentTurnHandler" line="172" NOS="64" FE="4" NOL="6" CC="9" NOP="0" LOCm="53" NLS="0"/>
+      <method name="createGameDetails" line="241" CC="1" NOS="1" LOCm="5" FE="0" NOP="0" NOL="1" NLS="0"/>
+      <method name="createInitialState" line="247" LOCm="6" FE="0" NOS="2" NOP="3" NOL="1" NLS="0" CC="1"/>
+      <method name="createItemsInitializer" line="148" NLS="0" FE="0" NOS="1" NOL="1" LOCm="5" CC="1" NOP="0"/>
+      <method name="createOtherTurnHandler" line="226" NOS="12" CC="3" LOCm="14" NOL="3" FE="3" NOP="0" NLS="0"/>
+      <method name="createPawnsInitializer" line="154" NOP="0" CC="1" LOCm="5" NOS="1" FE="0" NLS="0" NOL="1"/>
+      <method name="createPlayersInitializer" line="166" NOP="0" LOCm="5" NOL="1" FE="0" NLS="0" NOS="1" CC="1"/>
+    </type>
+    <type name="MonopolyGameFactory1$(anonymous)" line="174" NLS="0" WMC="8" NOP="1" Ce="7" NOS="62" CC="8" NOF="0" FE="4" NOL="5">
+      <method name="makeTurn" line="175" NOL="5" CC="8" NOS="62" FE="4" NOP="1" NLS="0"/>
+    </type>
+    <type name="MonopolyGameFactory1$(anonymous)" line="228" NOL="2" WMC="2" NLS="0" NOF="0" Ce="5" CC="2" NOP="1" NOS="10" FE="3">
+      <method name="makeTurn" line="229" NLS="0" NOP="1" CC="2" NOL="2" NOS="10" FE="3"/>
+    </type>
+    <type name="PawnsInitializerImpl1" line="75" NOP="2" NOS="4" NOL="1" CC="1" FE="0" WMC="1" NLS="0" LOCm="10" NOF="0" Ce="9">
+      <method name="initializePawns" line="77" NOS="4" NOP="2" FE="0" NLS="0" NOL="1" LOCm="10" CC="1"/>
+    </type>
+    <type name="PlayersInitializerImpl1" line="100" NOS="14" NOP="3" FE="2" WMC="2" NOF="0" NOL="2" CC="2" Ce="11" LOCm="25" NLS="0">
+      <method name="initializePlayers" line="102" NOS="14" CC="2" NOL="2" FE="2" NOP="3" LOCm="25" NLS="0"/>
+    </type>
+    <type name="Server" line="15" NOF="0" NOP="1" Ce="8" CC="2" FE="0" LOCm="12" NOL="2" NLS="4" NOS="9" WMC="4">
+      <method name="main" line="30" LOCm="9" NLS="2" NOL="2" NOS="5" NOP="1" CC="2"/>
+      <method name="setUp" line="17" NLS="4" LOCm="12" NOP="0" NOS="9" CC="2" NOL="2" FE="0"/>
+    </type>
+  </package>
+</metrics>

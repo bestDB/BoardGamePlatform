@@ -1,0 +1,50 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#utilitiesPackage.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node17sa8fv6ux2030 .
+
+_:node17sa8fv6ux2030 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> ;
+	atxa-core:posX "33" ;
+	atxa-core:posY "36" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$StateHelper> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardHelper> , <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder> .
+
+_:node17sa8fv6ux2030 atxa-core:contains _:node17sa8fv6ux2031 .
+
+_:node17sa8fv6ux2031 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$StateHelper> ;
+	atxa-core:posX "39" ;
+	atxa-core:posY "61" .
+
+_:node17sa8fv6ux2030 atxa-core:contains _:node17sa8fv6ux2032 .
+
+_:node17sa8fv6ux2032 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardHelper> ;
+	atxa-core:posX "154" ;
+	atxa-core:posY "64" .
+
+_:node17sa8fv6ux2030 atxa-core:contains _:node17sa8fv6ux2033 .
+
+_:node17sa8fv6ux2033 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#boardGamePlatform.utilities$BoardBuilder> ;
+	atxa-core:posX "93" ;
+	atxa-core:posY "112" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+
+<http://www.architexa.com/rdf/rse-eclipse#utilitiesPackage.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node17sa8fv6ux2031 , _:node17sa8fv6ux2032 , _:node17sa8fv6ux2033 , _:node17sa8fv6ux2030 , atxa-core:docRoot , _:node17sa8fv6ux2031 , _:node17sa8fv6ux2032 , _:node17sa8fv6ux2033 , _:node17sa8fv6ux2030 , atxa-core:docRoot .
+
